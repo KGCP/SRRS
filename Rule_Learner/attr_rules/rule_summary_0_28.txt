@@ -1,0 +1,309 @@
+No. of attribute rules in ./templates/lime_attribute_rules.json: 28
+Evaluating attribute rules: 0-28, Parallel processing: True
+rule template 0: bs: 504	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.450482                0.634291               0.047180
+1       lr_val        0.060896                0.114521               0.012456
+2       d_lime        0.053021                0.150517               0.009501
+3    culti_idx        0.007861                0.012452               0.001993
+4  d_culti_val        0.007381                0.012218               0.003368
+5     d_pH_avg        0.370215                0.675259               0.039428
+6          gap        0.050144                0.098403               0.012841
+rule template 8: bs: 3762	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.170413                0.393358               0.009607
+1        C_val        0.061333                0.131392               0.003510
+2       lr_val        0.114950                0.280542               0.005364
+3       d_lime        0.000000                0.000000               0.000000
+4    culti_idx        0.012118                0.018809               0.001003
+5  d_culti_val        0.080505                0.215017               0.005582
+6     d_pH_avg        0.473316                0.983050               0.017093
+7          gap        0.087364                0.202686               0.003587
+rule template 17: bs: 2205	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.137930                0.258173               0.005901
+1     ECEC_val        0.148707                0.270322               0.007331
+2       lr_val        0.033190                0.231926               0.017176
+3       d_lime        0.041312                0.231304               0.008640
+4    culti_idx        0.005490                0.011977               0.001561
+5  d_culti_val        0.004908                0.009173               0.000492
+6      d_X_avg        0.595026                1.515164               0.032575
+7     d_pH_avg        0.019358                0.042417               0.001635
+8          gap        0.014078                0.047094               0.001974
+rule template 7: bs: 3762	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.196620                0.441755               0.007544
+1       lr_val        0.132969                0.299663               0.010402
+2       d_lime        0.000000                0.000000               0.000000
+3    culti_idx        0.012451                0.021672               0.001182
+4  d_culti_val        0.081529                0.177948               0.002252
+5     d_pH_avg        0.495108                1.012757               0.010464
+6          gap        0.081323                0.192545               0.003240
+rule template 16: bs: 2793	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.117736                0.240455               0.005054
+1       Al_val        0.113441                0.238720               0.005980
+2       lr_val        0.035098                0.168364               0.005626
+3       d_lime        0.036480                0.143156               0.005821
+4    culti_idx        0.004971                0.011976               0.000902
+5  d_culti_val        0.004289                0.008475               0.000833
+6      d_X_avg        0.616914                1.546222               0.034154
+7     d_pH_avg        0.019030                0.041278               0.001788
+8          gap        0.052041                0.100185               0.002576
+rule template 14: bs: 3528	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.211039                0.319572               0.006921
+1       lr_val        0.052611                0.203383               0.001975
+2       d_lime        0.034238                0.173731               0.012277
+3    culti_idx        0.004462                0.016438               0.001271
+4  d_culti_val        0.007873                0.030148               0.002129
+5      d_X_avg        0.603443                1.561149               0.019251
+6     d_pH_avg        0.030235                0.074676               0.003487
+7          gap        0.056100                0.190845               0.005168
+rule template 2: bs: 399	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.256919                0.350501               0.011510
+1       Al_val        0.208725                0.314661               0.013627
+2       lr_val        0.037135                0.084932               0.012210
+3       d_lime        0.034257                0.073478               0.010970
+4    culti_idx        0.005767                0.004568               0.001430
+5  d_culti_val        0.006290                0.007461               0.000885
+6     d_pH_avg        0.406081                0.740936               0.036957
+7          gap        0.044827                0.062681               0.003330
+rule template 3: bs: 315	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.269126                0.504422               0.032193
+1     ECEC_val        0.478348                0.800131               0.043382
+2       lr_val        0.029219                0.052116               0.008378
+3       d_lime        0.025967                0.047768               0.003477
+4    culti_idx        0.003200                0.002706               0.000557
+5  d_culti_val        0.009354                0.009769               0.001988
+6     d_pH_avg        0.168684                0.350300               0.054934
+7          gap        0.016102                0.021367               0.002126
+rule template 1: bs: 329	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.505614                0.978338               0.033125
+1        C_val        0.263549                0.566281               0.031301
+2       lr_val        0.020522                0.051668               0.006279
+3       d_lime        0.050889                0.119243               0.028253
+4    culti_idx        0.013363                0.010103               0.001629
+5  d_culti_val        0.004464                0.003512               0.001350
+6     d_pH_avg        0.134042                0.222691               0.012950
+7          gap        0.007556                0.008275               0.001639
+rule template 9: bs: 3762	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.088610                0.229040               0.006404
+1       Al_val        0.151798                0.207046               0.005540
+2       lr_val        0.120680                0.312387               0.009379
+3       d_lime        0.000000                0.000000               0.000000
+4    culti_idx        0.010302                0.018365               0.001527
+5  d_culti_val        0.062406                0.177355               0.002340
+6     d_pH_avg        0.479331                1.007188               0.019905
+7          gap        0.086874                0.211289               0.005128
+rule template 10: bs: 3762	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.149488                0.374115               0.009314
+1     ECEC_val        0.102095                0.238943               0.010624
+2       lr_val        0.104225                0.272555               0.004201
+3       d_lime        0.000000                0.000000               0.000000
+4    culti_idx        0.009954                0.017523               0.001569
+5  d_culti_val        0.079011                0.209979               0.003362
+6     d_pH_avg        0.471334                0.986494               0.018055
+7          gap        0.083893                0.196895               0.005493
+rule template 23: bs: 33829	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.026741                0.070882               0.000918
+1       Al_val        0.144241                0.337815               0.002606
+2       lr_val        0.134794                0.395251               0.003904
+3       d_lime        0.000000                0.000000               0.000000
+4    culti_idx        0.016905                0.056684               0.001539
+5  d_culti_val        0.051939                0.225027               0.003573
+6      d_X_avg        0.521300                1.287076               0.007470
+7     d_pH_avg        0.016563                0.044772               0.000623
+8          gap        0.087516                0.247390               0.001552
+rule template 21: bs: 36709	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.146760                0.288799               0.002961
+1       lr_val        0.132531                0.383390               0.002934
+2       d_lime        0.000000                0.000000               0.000000
+3    culti_idx        0.018967                0.049377               0.000858
+4  d_culti_val        0.065839                0.277111               0.004674
+5      d_X_avg        0.527106                1.270725               0.007073
+6     d_pH_avg        0.022250                0.057818               0.000850
+7          gap        0.086548                0.239129               0.003084
+rule template 24: bs: 33829	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.023783                0.075794               0.001278
+1     ECEC_val        0.164993                0.447595               0.005362
+2       lr_val        0.151864                0.406368               0.003288
+3       d_lime        0.000000                0.000000               0.000000
+4    culti_idx        0.015574                0.060206               0.001994
+5  d_culti_val        0.055010                0.176645               0.005125
+6      d_X_avg        0.504163                1.289008               0.009742
+7     d_pH_avg        0.006708                0.012062               0.000159
+8          gap        0.077904                0.221891               0.003197
+rule template 22: bs: 33829	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.077509                0.124856               0.001560
+1        C_val        0.044293                0.099347               0.001631
+2       lr_val        0.150172                0.439840               0.004526
+3       d_lime        0.000000                0.000000               0.000000
+4    culti_idx        0.024935                0.055165               0.000620
+5  d_culti_val        0.079719                0.384913               0.004079
+6      d_X_avg        0.526856                1.284969               0.006547
+7     d_pH_avg        0.010228                0.024499               0.000372
+8          gap        0.086288                0.236553               0.001667
+rule template 6: bs: 315	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.217133                0.417988               0.025827
+1       Al_val        0.122068                0.187920               0.005431
+2     ECEC_val        0.427992                0.738301               0.038115
+3       lr_val        0.019551                0.027834               0.007177
+4       d_lime        0.025930                0.034235               0.001777
+5    culti_idx        0.001842                0.003171               0.000961
+6  d_culti_val        0.006192                0.003558               0.001607
+7     d_pH_avg        0.164852                0.328096               0.053311
+8          gap        0.014441                0.019561               0.004925
+rule template 19: bs: 2303	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.106065                0.277911               0.009783
+1        C_val        0.082706                0.289414               0.012950
+2     ECEC_val        0.110506                0.253367               0.008216
+3       lr_val        0.032108                0.266968               0.019313
+4       d_lime        0.057978                0.321298               0.007912
+5    culti_idx        0.002256                0.005537               0.000573
+6  d_culti_val        0.002294                0.005034               0.000589
+7      d_X_avg        0.581999                1.593318               0.039756
+8     d_pH_avg        0.013172                0.021008               0.002290
+9          gap        0.010916                0.019487               0.001164
+rule template 15: bs: 2303	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.169205                0.359472               0.016264
+1        C_val        0.121683                0.378019               0.016434
+2       lr_val        0.033081                0.268771               0.017353
+3       d_lime        0.058353                0.354352               0.012584
+4    culti_idx        0.003298                0.013933               0.000612
+5  d_culti_val        0.003781                0.008481               0.000545
+6      d_X_avg        0.575801                1.578654               0.051692
+7     d_pH_avg        0.021987                0.088239               0.005454
+8          gap        0.012810                0.024511               0.001571
+rule template 11: bs: 3762	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.073612                0.164934               0.004515
+1        C_val        0.059888                0.138125               0.003025
+2       Al_val        0.135741                0.207350               0.004047
+3       lr_val        0.106586                0.286804               0.006268
+4       d_lime        0.000000                0.000000               0.000000
+5    culti_idx        0.009269                0.017177               0.001457
+6  d_culti_val        0.063174                0.186293               0.001795
+7     d_pH_avg        0.467862                0.992331               0.017294
+8          gap        0.083868                0.206523               0.005032
+rule template 20: bs: 2205	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.094856                0.198903               0.006875
+1       Al_val        0.090017                0.212624               0.010845
+2     ECEC_val        0.112609                0.220257               0.007012
+3       lr_val        0.033125                0.248532               0.015675
+4       d_lime        0.040474                0.233454               0.007367
+5    culti_idx        0.005248                0.014636               0.001436
+6  d_culti_val        0.006078                0.013291               0.001852
+7      d_X_avg        0.591636                1.514976               0.025242
+8     d_pH_avg        0.015268                0.030201               0.001251
+9          gap        0.010689                0.034517               0.001562
+rule template 13: bs: 3762	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.057306                0.167944               0.003570
+1       Al_val        0.123831                0.167984               0.004903
+2     ECEC_val        0.089570                0.236696               0.011187
+3       lr_val        0.106567                0.299212               0.006076
+4       d_lime        0.000000                0.000000               0.000000
+5    culti_idx        0.009048                0.015762               0.001453
+6  d_culti_val        0.060661                0.185145               0.002867
+7     d_pH_avg        0.472362                1.034722               0.014278
+8          gap        0.080655                0.206722               0.003566
+rule template 18: bs: 2303	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.101467                0.227166               0.007183
+1        C_val        0.094967                0.289429               0.015019
+2       Al_val        0.103676                0.226870               0.009128
+3       lr_val        0.031406                0.237812               0.014062
+4       d_lime        0.059820                0.322041               0.008256
+5    culti_idx        0.002489                0.006908               0.000057
+6  d_culti_val        0.004112                0.007964               0.000970
+7      d_X_avg        0.582274                1.589396               0.038677
+8     d_pH_avg        0.010597                0.025935               0.001932
+9          gap        0.009193                0.016543               0.000805
+rule template 12: bs: 3762	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.136613                0.290782               0.007794
+1        C_val        0.041982                0.086377               0.002218
+2     ECEC_val        0.084242                0.188798               0.009319
+3       lr_val        0.099850                0.272138               0.006054
+4       d_lime        0.000000                0.000000               0.000000
+5    culti_idx        0.009515                0.016472               0.001450
+6  d_culti_val        0.078498                0.214390               0.004230
+7     d_pH_avg        0.467465                1.016395               0.018253
+8          gap        0.081835                0.197978               0.003267
+rule template 27: bs: 33829	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.018029                0.050031               0.000964
+1       Al_val        0.015715                0.041936               0.000364
+2     ECEC_val        0.157199                0.417737               0.005093
+3       lr_val        0.152212                0.404959               0.003293
+4       d_lime        0.000000                0.000000               0.000000
+5    culti_idx        0.016502                0.059684               0.001912
+6  d_culti_val        0.054079                0.181667               0.004565
+7      d_X_avg        0.503836                1.290222               0.009522
+8     d_pH_avg        0.005346                0.008781               0.000200
+9          gap        0.077082                0.220998               0.003073
+rule template 26: bs: 33829	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.019508                0.066785               0.001073
+1        C_val        0.019837                0.033438               0.000462
+2     ECEC_val        0.155069                0.428044               0.004952
+3       lr_val        0.151126                0.398928               0.003026
+4       d_lime        0.000000                0.000000               0.000000
+5    culti_idx        0.015670                0.054650               0.001448
+6  d_culti_val        0.053665                0.173669               0.004792
+7      d_X_avg        0.504315                1.289323               0.009941
+8     d_pH_avg        0.003643                0.004959               0.000086
+9          gap        0.077167                0.221648               0.002934
+rule template 25: bs: 33829	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.016573                0.050323               0.000711
+1        C_val        0.034741                0.077396               0.000574
+2       Al_val        0.136169                0.335707               0.002388
+3       lr_val        0.134216                0.388618               0.003845
+4       d_lime        0.000000                0.000000               0.000000
+5    culti_idx        0.017135                0.054199               0.000946
+6  d_culti_val        0.051705                0.222190               0.003694
+7      d_X_avg        0.518844                1.295673               0.007146
+8     d_pH_avg        0.008139                0.019621               0.000154
+9          gap        0.082477                0.233180               0.001762
+rule template 5: bs: 329	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.380874                0.558900               0.029901
+1        C_val        0.217267                0.570726               0.044386
+2     ECEC_val        0.277396                0.551182               0.022455
+3       lr_val        0.009780                0.018691               0.002203
+4       d_lime        0.034682                0.061357               0.019434
+5    culti_idx        0.001493                0.001627               0.000700
+6  d_culti_val        0.004894                0.005531               0.001835
+7     d_pH_avg        0.069923                0.087053               0.003529
+8          gap        0.003690                0.001243               0.000361
+rule template 4: bs: 329	feature importances:
+  feature name  gini_imp (DTR)  permutation imp (mean)  permutation imp (std)
+0       pH_val        0.439384                0.718863               0.042180
+1        C_val        0.234675                0.594328               0.036407
+2       Al_val        0.129740                0.228675               0.011223
+3       lr_val        0.017586                0.034839               0.004497
+4       d_lime        0.039285                0.072674               0.024477
+5    culti_idx        0.003842                0.003481               0.000540
+6  d_culti_val        0.003395                0.001625               0.000352
+7     d_pH_avg        0.129671                0.196372               0.009426
+8          gap        0.002422                0.002122               0.000476
+
+The rule evaluation program runs about :114896.78775238991 s 
+Evaluated 28/28 rules 
+Got 0 errors.
+Skipped 0 rule templates.

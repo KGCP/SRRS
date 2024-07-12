@@ -1,0 +1,108 @@
+No. of attribute rules in ./templates/lime_attribute_rules.json: 112
+Evaluating attribute rules: 42-56, Parallel processing: True
+rule template 49: rs: 1349	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.122304                0.259274               0.011115
+1       lr_val  0.147891                0.386276               0.015921
+2       d_lime  0.000000                0.000000               0.000000
+3    culti_idx  0.014759                0.021871               0.001556
+4  d_culti_val  0.022315                0.034234               0.003095
+5     d_pH_avg  0.519134                1.003499               0.033592
+6          gap  0.173597                0.420419               0.021135
+rule template 42: rs: 28	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.110003                0.156635               0.037039
+1       lr_val  0.000000                0.000000               0.000000
+2       d_lime  0.000000                0.000000               0.000000
+3    culti_idx  0.000000                0.000000               0.000000
+4  d_culti_val  0.000000                0.000000               0.000000
+5     d_pH_avg  0.889997                1.220301               0.274714
+6          gap  0.000000                0.000000               0.000000
+rule template 45: skipped
+name 'skipped_templates_count' is not defined
+rule template 44: rs: 28	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.002548                0.002317               0.000240
+1       Al_val  0.657946                0.930908               0.095407
+2       lr_val  0.000000                0.000000               0.000000
+3       d_lime  0.000000                0.000000               0.000000
+4    culti_idx  0.000000                0.000000               0.000000
+5  d_culti_val  0.000000                0.000000               0.000000
+6     d_pH_avg  0.339506                0.252619               0.016283
+7          gap  0.000000                0.000000               0.000000
+rule template 50: rs: 1349	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.110100                0.217679               0.010177
+1        C_val  0.093344                0.154265               0.002700
+2       lr_val  0.111040                0.331615               0.018981
+3       d_lime  0.000000                0.000000               0.000000
+4    culti_idx  0.011100                0.011963               0.000771
+5  d_culti_val  0.037961                0.063897               0.007278
+6     d_pH_avg  0.478967                0.954432               0.008027
+7          gap  0.157488                0.395801               0.018806
+rule template 51: rs: 1349	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.089712                0.194269               0.011086
+1       Al_val  0.187453                0.286889               0.006457
+2       lr_val  0.108559                0.301113               0.019291
+3       d_lime  0.000000                0.000000               0.000000
+4    culti_idx  0.009908                0.016089               0.001138
+5  d_culti_val  0.063232                0.122540               0.011622
+6     d_pH_avg  0.488010                0.955704               0.010152
+7          gap  0.053126                0.102642               0.010107
+rule template 52: rs: 1349	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.110198                0.263570               0.012070
+1     ECEC_val  0.123845                0.185179               0.006819
+2       lr_val  0.102882                0.301821               0.022608
+3       d_lime  0.000000                0.000000               0.000000
+4    culti_idx  0.013164                0.015820               0.000981
+5  d_culti_val  0.032923                0.055432               0.005911
+6     d_pH_avg  0.484613                1.004726               0.013997
+7          gap  0.132374                0.359665               0.020843
+rule template 43: skipped
+name 'skipped_templates_count' is not defined
+rule template 55: rs: 1349	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.071994                0.179028               0.009762
+1       Al_val  0.136038                0.209971               0.005075
+2     ECEC_val  0.115258                0.165483               0.007632
+3       lr_val  0.089760                0.221335               0.016467
+4       d_lime  0.000000                0.000000               0.000000
+5    culti_idx  0.009077                0.013313               0.000386
+6  d_culti_val  0.061017                0.134618               0.012816
+7     d_pH_avg  0.476993                0.991181               0.011300
+8          gap  0.039863                0.080136               0.007359
+rule template 54: rs: 1349	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.108893                0.249214               0.012508
+1        C_val  0.051149                0.066434               0.002270
+2     ECEC_val  0.087383                0.102304               0.005713
+3       lr_val  0.102902                0.279566               0.018478
+4       d_lime  0.000000                0.000000               0.000000
+5    culti_idx  0.014290                0.015845               0.001142
+6  d_culti_val  0.030286                0.053590               0.005697
+7     d_pH_avg  0.472112                0.985865               0.016114
+8          gap  0.132985                0.340961               0.016346
+rule template 53: rs: 1349	feature importances:
+  feature name  gini_imp  permutation imp (mean)  permutation imp (std)
+0       pH_val  0.080940                0.142300               0.005414
+1        C_val  0.081249                0.151718               0.006739
+2       Al_val  0.160816                0.240537               0.006278
+3       lr_val  0.090573                0.219067               0.018385
+4       d_lime  0.000000                0.000000               0.000000
+5    culti_idx  0.009204                0.014355               0.000726
+6  d_culti_val  0.064711                0.145401               0.014729
+7     d_pH_avg  0.466716                0.920445               0.006483
+8          gap  0.045790                0.076729               0.007118
+rule template 47: skipped
+name 'skipped_templates_count' is not defined
+rule template 46: skipped
+name 'skipped_templates_count' is not defined
+rule template 48: skipped
+name 'skipped_templates_count' is not defined
+
+The rule evaluation program runs about :120098.76510572433 s 
+Evaluated 9/9 rules 
+Got 5 errors.
+Skipped 0 rule templates.

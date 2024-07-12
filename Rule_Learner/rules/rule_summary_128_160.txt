@@ -1,0 +1,39 @@
+No. of rule templates in ./lime_rules_templates_1.json: 192
+Evaluating templates: 128-160, Parallel processing: False
+rule template 128: 512 variants, bs: 280
+rule template 129: 2048 variants, bs: 280
+rule template 130: 512 variants, bs: 112
+rule template 131: 2048 variants, bs: 112
+rule template 132: 512 variants, bs: 189
+rule template 133: 8192 variants, bs: 189
+rule template 134: 512 variants, bs: 189
+rule template 135: 8192 variants, bs: 189
+rule template 136: 5120 variants, bs: 161
+rule template 137: 20480 variants, bs: 161
+rule template 138: 5120 variants, bs: 77
+rule template 139: 20480 variants, bs: 77
+rule template 140: 5120 variants, bs: 105
+rule template 141: 81920 variants, bs: 105
+rule template 142: 5120 variants, bs: 105
+rule template 143: 81920 variants, bs: 105
+rule template 144: 1536 variants, bs: 196
+rule template 145: 6144 variants, bs: 196
+rule template 146: 1536 variants, bs: 112
+rule template 147: 6144 variants, bs: 112
+rule template 148: 1536 variants, bs: 105
+rule template 149: 24576 variants, bs: 105
+rule template 150: 1536 variants, bs: 105
+rule template 151: 24576 variants, bs: 105
+rule template 152: 5120 variants, bs: 168
+rule template 153: 20480 variants, bs: 168
+rule template 154: 5120 variants, bs: 84
+rule template 155: 20480 variants, bs: 84
+rule template 156: 5120 variants, bs: 105
+rule template 157: 81920 variants, bs: 105
+rule template 158: 5120 variants, bs: 105
+rule template 159: 81920 variants, bs: 105
+
+The rule evaluation program runs about :688.1718382835388 s 
+Evaluated 0/0 rules 
+Got 0 errors
+Skipped 0 rule templates

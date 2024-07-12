@@ -1,0 +1,1 @@
+k          i          BS         RS         HS         SC=RS/BS   HC=RS/HS   |	Original Rule

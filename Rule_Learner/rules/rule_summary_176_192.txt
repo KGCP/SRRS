@@ -1,0 +1,23 @@
+No. of rule templates in ./templates/lime_rules_templates_new.json: 336
+Evaluating templates: 176-192, Parallel processing: True
+rule template 176: 1536 variants, bs: 608
+rule template 177: 6144 variants, bs: 608
+rule template 178: skipped
+rule template 179: skipped
+rule template 180: 1536 variants, bs: 608
+rule template 181: 24576 variants, bs: 608
+rule template 182: 1536 variants, bs: 384
+rule template 183: 24576 variants, bs: 384
+rule template 184: 5120 variants, bs: 608
+rule template 185: 20480 variants, bs: 608
+rule template 186: skipped
+rule template 187: skipped
+rule template 188: 5120 variants, bs: 608
+rule template 189: 81920 variants, bs: 608
+rule template 190: 5120 variants, bs: 384
+rule template 191: 81920 variants, bs: 384
+
+The rule evaluation program runs about :149813.88670539856 s 
+Evaluated 2214/259584 rules 
+Got 0 errors.
+Skipped 4 rule templates.

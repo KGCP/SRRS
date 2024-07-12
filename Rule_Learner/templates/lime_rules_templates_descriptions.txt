@@ -1,0 +1,336 @@
+i:0,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:1,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:2,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:3,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:4,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:5,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:6,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:7,	 t1-t2: 10-14,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:8,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:9,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:10,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:11,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:12,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:13,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:14,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:15,	 t1-t2: 10-14,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:16,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:17,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:18,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:19,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:20,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:21,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:22,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:23,	 t1-t2: 10-14,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:24,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:25,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:26,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:27,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:28,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:29,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:30,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:31,	 t1-t2: 10-14,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:32,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:33,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:34,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:35,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:36,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:37,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:38,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:39,	 t1-t2: 10-14,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:40,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:41,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:42,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:43,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:44,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:45,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:46,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:47,	 t1-t2: 10-14,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:48,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:49,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:50,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:51,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:52,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:53,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:54,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:55,	 t1-t2: 10-14,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:56,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:57,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:58,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:59,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:60,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:61,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:62,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:63,	 t1-t2: 10-14,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:64,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:65,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:66,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:67,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:68,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:69,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:70,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:71,	 t1-t2: 22-26,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:72,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:73,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:74,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:75,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:76,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:77,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:78,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:79,	 t1-t2: 22-26,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:80,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:81,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:82,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:83,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:84,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:85,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:86,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:87,	 t1-t2: 22-26,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:88,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:89,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:90,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:91,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:92,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:93,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:94,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:95,	 t1-t2: 22-26,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:96,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:97,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:98,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:99,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:100,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:101,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:102,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:103,	 t1-t2: 22-26,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:104,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:105,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:106,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:107,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:108,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:109,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:110,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:111,	 t1-t2: 22-26,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:112,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:113,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:114,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:115,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:116,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:117,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:118,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:119,	 t1-t2: 22-26,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:120,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:121,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:122,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:123,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:124,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:125,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:126,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:127,	 t1-t2: 22-26,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:128,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:129,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:130,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:131,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:132,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:133,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:134,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:135,	 t1-t2: 34-38,	 link control: False,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:136,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:137,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:138,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:139,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:140,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:141,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:142,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:143,	 t1-t2: 34-38,	 link control: False,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:144,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:145,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:146,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:147,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:148,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:149,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:150,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:151,	 t1-t2: 34-38,	 link control: False,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:152,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:153,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:154,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:155,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:156,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:157,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:158,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:159,	 t1-t2: 34-38,	 link control: False,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:160,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:161,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:162,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:163,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:164,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:165,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:166,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:167,	 t1-t2: 34-38,	 link control: True,	 other obs: (),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:168,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:169,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:170,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:171,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:172,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:173,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:174,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:175,	 t1-t2: 34-38,	 link control: True,	 other obs: Carbon,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:176,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:177,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:178,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:179,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:180,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:181,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:182,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:183,	 t1-t2: 34-38,	 link control: True,	 other obs: Al,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:184,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:185,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:186,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:187,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:188,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:189,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:190,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:191,	 t1-t2: 34-38,	 link control: True,	 other obs: ECEC,	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:192,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:193,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:194,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:195,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:196,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:197,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:198,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:199,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:200,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:201,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:202,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:203,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:204,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:205,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:206,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:207,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:208,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:209,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:210,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:211,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:212,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:213,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:214,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:215,	 t1-t2: 10-14,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:216,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:217,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:218,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:219,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:220,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:221,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:222,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:223,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:224,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:225,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:226,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:227,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:228,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:229,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:230,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:231,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:232,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:233,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:234,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:235,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:236,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:237,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:238,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:239,	 t1-t2: 10-14,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:240,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:241,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:242,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:243,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:244,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:245,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:246,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:247,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:248,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:249,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:250,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:251,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:252,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:253,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:254,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:255,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:256,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:257,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:258,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:259,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:260,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:261,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:262,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:263,	 t1-t2: 22-26,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:264,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:265,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:266,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:267,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:268,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:269,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:270,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:271,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:272,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:273,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:274,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:275,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:276,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:277,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:278,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:279,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:280,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:281,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:282,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:283,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:284,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:285,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:286,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:287,	 t1-t2: 22-26,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:288,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:289,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:290,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:291,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:292,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:293,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:294,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:295,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:296,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:297,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:298,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:299,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:300,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:301,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:302,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:303,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:304,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:305,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:306,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:307,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:308,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:309,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:310,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:311,	 t1-t2: 34-38,	 link control: False,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:312,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:313,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:314,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:315,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:316,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:317,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:318,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:319,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'Al'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:320,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:321,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:322,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:323,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:324,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:325,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:326,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:327,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Carbon', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any
+i:328,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: -,	 depth of cultivation: -
+i:329,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: -,	 depth of cultivation: -
+i:330,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: no,	 depth of cultivation: -
+i:331,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: no,	 depth of cultivation: -
+i:332,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: -
+i:333,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: -
+i:334,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: any,	 cultivated: any,	 depth of cultivation: any
+i:335,	 t1-t2: 34-38,	 link control: True,	 other obs: ('Al', 'ECEC'),	 limed: bound,	 cultivated: bound,	 depth of cultivation: any

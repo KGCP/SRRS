@@ -1,0 +1,110 @@
+2024-05-10 20:24:35 root - ERROR - 
+rule 29:
+SELECT[((?d_pH_to + ?d_pH_from)/2 AS ?d_pH_avg), (?m_X - ?m_lime AS ?gap)]	BIND[]	FILTER[(?m_X - ?m_lime >= 10 && ?m_X - ?m_lime <= 14), (?m_pH - ?m_lime <= 2 && ?m_lime - ?m_pH <= 2)]	fs-data:pH___LP_1-5-CaCl2_RP___ASC(?X,?pH_val_X) <= fs-onto:hasObservation(?eccmo_X,?X), sosa:observedProperty(?X,fs-data:ObservedProperty-pH), sosa:usedProcedure(?X,fs-data:MoA-1-5-CaCl2), fs-onto:hasDepth(?X, ?d_pH), sosa:phenomenonTime(?X, ?t_X), fs-onto:hasMonthCount(?t_X, ?m_X), fs-onto:hasObservation(?eccmo_X, ?obs_pH), fs-data:pH___LP_1-5-CaCl2_RP___ASC(?obs_pH,?pH_val), fs-onto:hasDepth(?obs_pH, ?d_pH), fs-onto:from(?d_pH, ?d_pH_from), fs-onto:to(?d_pH, ?d_pH_to), sosa:phenomenonTime(?obs_pH, ?t_pH), fs-onto:hasMonthCount(?t_pH, ?m_pH), fs-onto:hasObservation(?eccmo_X, ?obs_C), sosa:phenomenonTime(?obs_C, ?t_pH),  fs-onto:hasDepth(?obs_C, ?d_pH), fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC(?obs_C, ?C_val), fs-onto:hasECCMO(?mu_lime, ?eccmo_X), fs-onto:hasTime(?mu_lime, ?t_lime), fs-onto:hasMonthCount(?t_lime, ?m_lime), fs-onto:hasManagement(?mu_lime,?mng_lime), rdf:type(?mng_lime, fs-onto:Management-Amelioration-Lime), fs-onto:hasLimeApplicationRate(?mng_lime, ?lr_val), {fs-onto:hasDepthOfLimePlacement(?mng_lime, ?d_lime)}, {fs-onto:hasECCMO(?mu_culti, ?eccmo_X), fs-onto:hasTime(?mu_culti, ?t_culti), fs-onto:hasMonthCount(?t_culti, ?m_lime), fs-onto:hasManagement(?mu_culti,?mng_culti), rdf:type(?mng_culti, fs-onto:Management-Amelioration), fs-onto:hasCultivationTreatment(?mng_culti, ?culti), skos:broader(?culti, ?culti_lvl), fs-onto:index(?culti_lvl, ?culti_idx), {fs-onto:hasDepthOfCultivation(?mng_culti, ?d_culti_val)}}
+>>local variable 'skipped_templates_count' referenced before assignment
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "RegressionTraining.py", line 133, in evaluate_attr_rule
+    skipped_templates_count += 1
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "RegressionTraining.py", line 302, in <module>
+    res.get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+2024-05-10 20:24:35 root - ERROR - 
+rule 31:
+SELECT[((?d_pH_to + ?d_pH_from)/2 AS ?d_pH_avg), (?m_X - ?m_lime AS ?gap)]	BIND[]	FILTER[(?m_X - ?m_lime >= 10 && ?m_X - ?m_lime <= 14), (?m_pH - ?m_lime <= 2 && ?m_lime - ?m_pH <= 2)]	fs-data:pH___LP_1-5-CaCl2_RP___ASC(?X,?pH_val_X) <= fs-onto:hasObservation(?eccmo_X,?X), sosa:observedProperty(?X,fs-data:ObservedProperty-pH), sosa:usedProcedure(?X,fs-data:MoA-1-5-CaCl2), fs-onto:hasDepth(?X, ?d_pH), sosa:phenomenonTime(?X, ?t_X), fs-onto:hasMonthCount(?t_X, ?m_X), fs-onto:hasObservation(?eccmo_X, ?obs_pH), fs-data:pH___LP_1-5-CaCl2_RP___ASC(?obs_pH,?pH_val), fs-onto:hasDepth(?obs_pH, ?d_pH), fs-onto:from(?d_pH, ?d_pH_from), fs-onto:to(?d_pH, ?d_pH_to), sosa:phenomenonTime(?obs_pH, ?t_pH), fs-onto:hasMonthCount(?t_pH, ?m_pH), fs-onto:hasObservation(?eccmo_X, ?obs_ECEC), sosa:phenomenonTime(?obs_ECEC, ?t_pH), fs-onto:hasDepth(?obs_ECEC, ?d_pH),  fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC(?obs_ECEC, ?ECEC_val), fs-onto:hasECCMO(?mu_lime, ?eccmo_X), fs-onto:hasTime(?mu_lime, ?t_lime), fs-onto:hasMonthCount(?t_lime, ?m_lime), fs-onto:hasManagement(?mu_lime,?mng_lime), rdf:type(?mng_lime, fs-onto:Management-Amelioration-Lime), fs-onto:hasLimeApplicationRate(?mng_lime, ?lr_val), {fs-onto:hasDepthOfLimePlacement(?mng_lime, ?d_lime)}, {fs-onto:hasECCMO(?mu_culti, ?eccmo_X), fs-onto:hasTime(?mu_culti, ?t_culti), fs-onto:hasMonthCount(?t_culti, ?m_lime), fs-onto:hasManagement(?mu_culti,?mng_culti), rdf:type(?mng_culti, fs-onto:Management-Amelioration), fs-onto:hasCultivationTreatment(?mng_culti, ?culti), skos:broader(?culti, ?culti_lvl), fs-onto:index(?culti_lvl, ?culti_idx), {fs-onto:hasDepthOfCultivation(?mng_culti, ?d_culti_val)}}
+>>local variable 'skipped_templates_count' referenced before assignment
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "RegressionTraining.py", line 133, in evaluate_attr_rule
+    skipped_templates_count += 1
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "RegressionTraining.py", line 302, in <module>
+    res.get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+2024-05-10 20:24:35 root - ERROR - 
+rule 32:
+SELECT[((?d_pH_to + ?d_pH_from)/2 AS ?d_pH_avg), (?m_X - ?m_lime AS ?gap)]	BIND[]	FILTER[(?m_X - ?m_lime >= 10 && ?m_X - ?m_lime <= 14), (?m_pH - ?m_lime <= 2 && ?m_lime - ?m_pH <= 2)]	fs-data:pH___LP_1-5-CaCl2_RP___ASC(?X,?pH_val_X) <= fs-onto:hasObservation(?eccmo_X,?X), sosa:observedProperty(?X,fs-data:ObservedProperty-pH), sosa:usedProcedure(?X,fs-data:MoA-1-5-CaCl2), fs-onto:hasDepth(?X, ?d_pH), sosa:phenomenonTime(?X, ?t_X), fs-onto:hasMonthCount(?t_X, ?m_X), fs-onto:hasObservation(?eccmo_X, ?obs_pH), fs-data:pH___LP_1-5-CaCl2_RP___ASC(?obs_pH,?pH_val), fs-onto:hasDepth(?obs_pH, ?d_pH), fs-onto:from(?d_pH, ?d_pH_from), fs-onto:to(?d_pH, ?d_pH_to), sosa:phenomenonTime(?obs_pH, ?t_pH), fs-onto:hasMonthCount(?t_pH, ?m_pH), fs-onto:hasObservation(?eccmo_X, ?obs_C), sosa:phenomenonTime(?obs_C, ?t_pH),  fs-onto:hasDepth(?obs_C, ?d_pH), fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC(?obs_C, ?C_val), fs-onto:hasObservation(?eccmo_X, ?obs_Al), sosa:phenomenonTime(?obs_Al, ?t_pH), fs-onto:hasDepth(?obs_Al, ?d_pH),  fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC(?obs_Al, ?Al_val), fs-onto:hasECCMO(?mu_lime, ?eccmo_X), fs-onto:hasTime(?mu_lime, ?t_lime), fs-onto:hasMonthCount(?t_lime, ?m_lime), fs-onto:hasManagement(?mu_lime,?mng_lime), rdf:type(?mng_lime, fs-onto:Management-Amelioration-Lime), fs-onto:hasLimeApplicationRate(?mng_lime, ?lr_val), {fs-onto:hasDepthOfLimePlacement(?mng_lime, ?d_lime)}, {fs-onto:hasECCMO(?mu_culti, ?eccmo_X), fs-onto:hasTime(?mu_culti, ?t_culti), fs-onto:hasMonthCount(?t_culti, ?m_lime), fs-onto:hasManagement(?mu_culti,?mng_culti), rdf:type(?mng_culti, fs-onto:Management-Amelioration), fs-onto:hasCultivationTreatment(?mng_culti, ?culti), skos:broader(?culti, ?culti_lvl), fs-onto:index(?culti_lvl, ?culti_idx), {fs-onto:hasDepthOfCultivation(?mng_culti, ?d_culti_val)}}
+>>local variable 'skipped_templates_count' referenced before assignment
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "RegressionTraining.py", line 133, in evaluate_attr_rule
+    #global skipped_templates_count
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "RegressionTraining.py", line 302, in <module>
+    res.get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+2024-05-10 20:24:35 root - ERROR - 
+rule 33:
+SELECT[((?d_pH_to + ?d_pH_from)/2 AS ?d_pH_avg), (?m_X - ?m_lime AS ?gap)]	BIND[]	FILTER[(?m_X - ?m_lime >= 10 && ?m_X - ?m_lime <= 14), (?m_pH - ?m_lime <= 2 && ?m_lime - ?m_pH <= 2)]	fs-data:pH___LP_1-5-CaCl2_RP___ASC(?X,?pH_val_X) <= fs-onto:hasObservation(?eccmo_X,?X), sosa:observedProperty(?X,fs-data:ObservedProperty-pH), sosa:usedProcedure(?X,fs-data:MoA-1-5-CaCl2), fs-onto:hasDepth(?X, ?d_pH), sosa:phenomenonTime(?X, ?t_X), fs-onto:hasMonthCount(?t_X, ?m_X), fs-onto:hasObservation(?eccmo_X, ?obs_pH), fs-data:pH___LP_1-5-CaCl2_RP___ASC(?obs_pH,?pH_val), fs-onto:hasDepth(?obs_pH, ?d_pH), fs-onto:from(?d_pH, ?d_pH_from), fs-onto:to(?d_pH, ?d_pH_to), sosa:phenomenonTime(?obs_pH, ?t_pH), fs-onto:hasMonthCount(?t_pH, ?m_pH), fs-onto:hasObservation(?eccmo_X, ?obs_C), sosa:phenomenonTime(?obs_C, ?t_pH),  fs-onto:hasDepth(?obs_C, ?d_pH), fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC(?obs_C, ?C_val), fs-onto:hasObservation(?eccmo_X, ?obs_ECEC), sosa:phenomenonTime(?obs_ECEC, ?t_pH), fs-onto:hasDepth(?obs_ECEC, ?d_pH),  fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC(?obs_ECEC, ?ECEC_val), fs-onto:hasECCMO(?mu_lime, ?eccmo_X), fs-onto:hasTime(?mu_lime, ?t_lime), fs-onto:hasMonthCount(?t_lime, ?m_lime), fs-onto:hasManagement(?mu_lime,?mng_lime), rdf:type(?mng_lime, fs-onto:Management-Amelioration-Lime), fs-onto:hasLimeApplicationRate(?mng_lime, ?lr_val), {fs-onto:hasDepthOfLimePlacement(?mng_lime, ?d_lime)}, {fs-onto:hasECCMO(?mu_culti, ?eccmo_X), fs-onto:hasTime(?mu_culti, ?t_culti), fs-onto:hasMonthCount(?t_culti, ?m_lime), fs-onto:hasManagement(?mu_culti,?mng_culti), rdf:type(?mng_culti, fs-onto:Management-Amelioration), fs-onto:hasCultivationTreatment(?mng_culti, ?culti), skos:broader(?culti, ?culti_lvl), fs-onto:index(?culti_lvl, ?culti_idx), {fs-onto:hasDepthOfCultivation(?mng_culti, ?d_culti_val)}}
+>>local variable 'skipped_templates_count' referenced before assignment
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "RegressionTraining.py", line 133, in evaluate_attr_rule
+    #global skipped_templates_count
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "RegressionTraining.py", line 302, in <module>
+    res.get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+2024-05-10 20:24:35 root - ERROR - 
+rule 34:
+SELECT[((?d_pH_to + ?d_pH_from)/2 AS ?d_pH_avg), (?m_X - ?m_lime AS ?gap)]	BIND[]	FILTER[(?m_X - ?m_lime >= 10 && ?m_X - ?m_lime <= 14), (?m_pH - ?m_lime <= 2 && ?m_lime - ?m_pH <= 2)]	fs-data:pH___LP_1-5-CaCl2_RP___ASC(?X,?pH_val_X) <= fs-onto:hasObservation(?eccmo_X,?X), sosa:observedProperty(?X,fs-data:ObservedProperty-pH), sosa:usedProcedure(?X,fs-data:MoA-1-5-CaCl2), fs-onto:hasDepth(?X, ?d_pH), sosa:phenomenonTime(?X, ?t_X), fs-onto:hasMonthCount(?t_X, ?m_X), fs-onto:hasObservation(?eccmo_X, ?obs_pH), fs-data:pH___LP_1-5-CaCl2_RP___ASC(?obs_pH,?pH_val), fs-onto:hasDepth(?obs_pH, ?d_pH), fs-onto:from(?d_pH, ?d_pH_from), fs-onto:to(?d_pH, ?d_pH_to), sosa:phenomenonTime(?obs_pH, ?t_pH), fs-onto:hasMonthCount(?t_pH, ?m_pH), fs-onto:hasObservation(?eccmo_X, ?obs_Al), sosa:phenomenonTime(?obs_Al, ?t_pH), fs-onto:hasDepth(?obs_Al, ?d_pH),  fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC(?obs_Al, ?Al_val), fs-onto:hasObservation(?eccmo_X, ?obs_ECEC), sosa:phenomenonTime(?obs_ECEC, ?t_pH), fs-onto:hasDepth(?obs_ECEC, ?d_pH),  fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC(?obs_ECEC, ?ECEC_val), fs-onto:hasECCMO(?mu_lime, ?eccmo_X), fs-onto:hasTime(?mu_lime, ?t_lime), fs-onto:hasMonthCount(?t_lime, ?m_lime), fs-onto:hasManagement(?mu_lime,?mng_lime), rdf:type(?mng_lime, fs-onto:Management-Amelioration-Lime), fs-onto:hasLimeApplicationRate(?mng_lime, ?lr_val), {fs-onto:hasDepthOfLimePlacement(?mng_lime, ?d_lime)}, {fs-onto:hasECCMO(?mu_culti, ?eccmo_X), fs-onto:hasTime(?mu_culti, ?t_culti), fs-onto:hasMonthCount(?t_culti, ?m_lime), fs-onto:hasManagement(?mu_culti,?mng_culti), rdf:type(?mng_culti, fs-onto:Management-Amelioration), fs-onto:hasCultivationTreatment(?mng_culti, ?culti), skos:broader(?culti, ?culti_lvl), fs-onto:index(?culti_lvl, ?culti_idx), {fs-onto:hasDepthOfCultivation(?mng_culti, ?d_culti_val)}}
+>>local variable 'skipped_templates_count' referenced before assignment
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "RegressionTraining.py", line 133, in evaluate_attr_rule
+    #global skipped_templates_count
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "RegressionTraining.py", line 302, in <module>
+    res.get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+UnboundLocalError: local variable 'skipped_templates_count' referenced before assignment
