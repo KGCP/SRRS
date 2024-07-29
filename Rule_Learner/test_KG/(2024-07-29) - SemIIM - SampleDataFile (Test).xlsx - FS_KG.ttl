@@ -1,0 +1,3443 @@
+@prefix fs-data: <http://soco.cecc.anu.edu.au/data/FutureSOILS/> .
+@prefix fs-onto: <http://soco.cecc.anu.edu.au/onto/FutureSOILS#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix w3c-geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fs-data:ECCMObyRep-1890893e4c52e6 a fs-onto:ECCMObyRep,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|"^^xsd:string ;
+    fs-onto:hasControl fs-data:ECCMO-8319a5207bba46 ;
+    fs-onto:hasECCMO fs-data:ECCMO-4feffe24e3c21d,
+        fs-data:ECCMO-8319a5207bba46,
+        fs-data:ECCMO-c2a7b5aaa23d99 .
+
+fs-data:ECCMObyRep-2de6b78d360d2d a fs-onto:ECCMObyRep,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|"^^xsd:string ;
+    fs-onto:hasControl fs-data:ECCMO-72369b7701cad0 ;
+    fs-onto:hasECCMO fs-data:ECCMO-135bfea5d5f5cf,
+        fs-data:ECCMO-23fd3cda7a00b9,
+        fs-data:ECCMO-72369b7701cad0 .
+
+fs-data:ECCMObyTre-b26ec9b33f829f a fs-onto:ECCMObyTre,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9,
+        fs-data:ECCMO-c2a7b5aaa23d99 .
+
+fs-data:ECCMObyTre-e36c81f4cd925d a fs-onto:ECCMObyTre,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-135bfea5d5f5cf,
+        fs-data:ECCMO-4feffe24e3c21d .
+
+fs-data:ECCMObyTre-eb42340460dc4a a fs-onto:ECCMObyTre,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0,
+        fs-data:ECCMO-8319a5207bba46 .
+
+fs-data:File-220bba99467cc2 a fs-onto:File,
+        owl:NamedIndividual ;
+    fs-onto:name "(2024-07-29) - SemIIM - SampleDataFile (Test).xlsx"^^xsd:string ;
+    prov:generatedAtTime "2024-07-29T12:50:18.642243"^^xsd:dateTime ;
+    prov:hadMember fs-data:Table-59051026d1624f,
+        fs-data:Table-91319f15822e38 .
+
+fs-data:ManagementUsed-04ac78527fc47a a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-1660913366ce00 a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-8319a5207bba46 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-232e2163e370c8 a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-426e2a80c77391 a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='SPEED TILLER'|DepthOfCultivation=10.0|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-4feffe24e3c21d ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-eab943c4c09774 ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-6680d2c9c84c0b a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='SPEED TILLER'|DepthOfCultivation=10.0|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-135bfea5d5f5cf ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-eab943c4c09774 ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-920736ed6c350b a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-ae417c27fed05d a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-cd302ee8b5d827 a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-d5d2ddadef6e1c a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='SPEED TILLER'|DepthOfCultivation=10.0|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-4feffe24e3c21d ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-83bd1909b31e25 ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:ManagementUsed-f843fee1c4efbe a fs-onto:ManagementUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='SPEED TILLER'|DepthOfCultivation=10.0|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-135bfea5d5f5cf ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-83bd1909b31e25 ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:CropUsed-3f6e63b1b970b9 a fs-onto:CropUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Crops:|CropType='PASTURE'|CropSpecies1='LUCERNE'|CropSpecies2='CLOVER'|CropSpecies3=None|CropSpecies4=None|CropSpecies5=None|CropVariety1=None|"^^xsd:string ;
+    fs-onto:hasCropSpecies fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-1 fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-2 fs-data:CropSpecies-CLOVER-instance ;
+    fs-onto:hasCropType fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:CropUsed-7e050717059bda a fs-onto:CropUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Crops:|CropType='PASTURE'|CropSpecies1='LUCERNE'|CropSpecies2='CLOVER'|CropSpecies3=None|CropSpecies4=None|CropSpecies5=None|CropVariety1=None|"^^xsd:string ;
+    fs-onto:hasCropSpecies fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-1 fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-2 fs-data:CropSpecies-CLOVER-instance ;
+    fs-onto:hasCropType fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:CropUsed-8532f192022aff a fs-onto:CropUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Crops:|CropType='PASTURE'|CropSpecies1='LUCERNE'|CropSpecies2='CLOVER'|CropSpecies3=None|CropSpecies4=None|CropSpecies5=None|CropVariety1=None|"^^xsd:string ;
+    fs-onto:hasCropSpecies fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-1 fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-2 fs-data:CropSpecies-CLOVER-instance ;
+    fs-onto:hasCropType fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:CropUsed-a6126f239da007 a fs-onto:CropUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Crops:|CropType='PASTURE'|CropSpecies1='LUCERNE'|CropSpecies2='CLOVER'|CropSpecies3=None|CropSpecies4=None|CropSpecies5=None|CropVariety1=None|"^^xsd:string ;
+    fs-onto:hasCropSpecies fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-1 fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-2 fs-data:CropSpecies-CLOVER-instance ;
+    fs-onto:hasCropType fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:CropUsed-b127b205740d15 a fs-onto:CropUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Crops:|CropType='PASTURE'|CropSpecies1='LUCERNE'|CropSpecies2='CLOVER'|CropSpecies3=None|CropSpecies4=None|CropSpecies5=None|CropVariety1=None|"^^xsd:string ;
+    fs-onto:hasCropSpecies fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-1 fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-2 fs-data:CropSpecies-CLOVER-instance ;
+    fs-onto:hasCropType fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:CropUsed-bfb07335d6ae23 a fs-onto:CropUsed,
+        owl:NamedIndividual ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Crops:|CropType='PASTURE'|CropSpecies1='LUCERNE'|CropSpecies2='CLOVER'|CropSpecies3=None|CropSpecies4=None|CropSpecies5=None|CropVariety1=None|"^^xsd:string ;
+    fs-onto:hasCropSpecies fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-1 fs-data:CropSpecies-LUCERNE-instance ;
+    fs-onto:hasCropSpecies-2 fs-data:CropSpecies-CLOVER-instance ;
+    fs-onto:hasCropType fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasTime fs-data:Time-2020-05-22 .
+
+fs-data:GeneralDateTimeDescription-2020-05-22 a owl:NamedIndividual,
+        time:GeneralDateTimeDescription ;
+    time:day 22 ;
+    time:month 5 ;
+    time:unitType time:unitDay ;
+    time:year 2020 .
+
+fs-data:GeneralDateTimeDescription-2020-06-01 a owl:NamedIndividual,
+        time:GeneralDateTimeDescription ;
+    time:day 1 ;
+    time:month 6 ;
+    time:unitType time:unitDay ;
+    time:year 2020 .
+
+fs-data:GeneralDateTimeDescription-2022-07-10 a owl:NamedIndividual,
+        time:GeneralDateTimeDescription ;
+    time:day 10 ;
+    time:month 7 ;
+    time:unitType time:unitDay ;
+    time:year 2022 .
+
+fs-data:Observation-59051026d1624f-04-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.68"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_2.49____As__RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.68"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_2.49____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-04-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "4.61"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_4.29____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-04-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "5.9"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-04-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.2"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-04-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.15"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-04-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "120.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-04-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-04-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "10.49"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_8.77___10.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-04-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-04-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-05-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "1.83"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.61___1.91_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "1.83"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.61___1.91_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-05-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.15"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_2.76___3.28_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-05-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "5.8"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-05-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.1"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-05-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.16"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-05-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "80.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-05-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-05-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "9.51"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_8.77___10.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-05-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-05-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-06-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.83"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_2.49____As__RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.83"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_2.49____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-06-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "4.87"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_4.29____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-06-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-06-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.3"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-06-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.16"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-06-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "130.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-06-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-06-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "12.72"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_10.61___13.89_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-06-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-06-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-07-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.09"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.91___2.49_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.09"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.91___2.49_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-07-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.59"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_3.28___4.29_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-07-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "5.7"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-07-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-07-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.15"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-07-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "97.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-07-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-07-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "10.6"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_8.77___10.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-07-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-07-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2020-06-01 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-08-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.25"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.91___2.49_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.25"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.91___2.49_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-08-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.87"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_3.28___4.29_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-08-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.7"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_6.3____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-08-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "6.1"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_5.5____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-08-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.15"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-08-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "120.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-08-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-08-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "11.74"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_10.61___13.89_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-08-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-08-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-09-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "1.57"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.31___1.61_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "1.57"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.31___1.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-09-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "2.7"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_2.25___2.76_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-09-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-09-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.1"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-09-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.09"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-09-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "91.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-09-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.11"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP_0.07___0.13_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-09-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "9.09"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_8.77___10.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-09-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "1.21"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-72369b7701cad0 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-09-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-10-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.46"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.91___2.49_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.46"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.91___2.49_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-10-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "4.23"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_3.28___4.29_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-10-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.5"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_6.3____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-10-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.9"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_5.5____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-10-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.19"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-10-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "95.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-10-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-10-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "11.93"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_10.61___13.89_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-10-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-10-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-11-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "1.92"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.91___2.49_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "1.92"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.91___2.49_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-11-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.3"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_3.28___4.29_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-11-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "5.8"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-11-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "4.9"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-11-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.1"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-11-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "79.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_40.0___80.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-11-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.17"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP_0.13___0.2_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-11-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "8.66"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_7.45___8.77_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-11-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "1.96"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-8319a5207bba46 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-11-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-12-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "1.99"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.91___2.49_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "1.99"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.91___2.49_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-12-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.42"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_3.28___4.29_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-12-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.8"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_6.3____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-12-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "6.2"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_5.5____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-12-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.13"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-12-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "53.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_40.0___80.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-12-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-12-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "10.64"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_10.61___13.89_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-12-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-12-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-13-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "1.44"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.31___1.61_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "1.44"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.31___1.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-13-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "2.48"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_2.25___2.76_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-13-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-13-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.1"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-13-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.07"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-13-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "49.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_40.0___80.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-13-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.13"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP_0.13___0.2_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-13-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "7.69"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_7.45___8.77_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-13-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "1.69"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-23fd3cda7a00b9 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-13-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-14-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "3.06"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_2.49____As__RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "3.06"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_2.49____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-14-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "5.26"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_4.29____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-14-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.8"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_6.3____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-14-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "6.3"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_5.5____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-14-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.23"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-14-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "100.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-14-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-14-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "14.73"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_13.89____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-14-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-14-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-15-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "1.86"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.61___1.91_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "1.86"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.61___1.91_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-15-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.2"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_2.76___3.28_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-15-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-15-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.1"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-15-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.12"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-15-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "70.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_40.0___80.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-15-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-15-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "8.56"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_7.45___8.77_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-15-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-c2a7b5aaa23d99 ;
+    sosa:hasResult fs-data:Result-59051026d1624f-15-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-16-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.07"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.91___2.49_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.07"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.91___2.49_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-16-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.56"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_3.28___4.29_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-16-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.7"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_6.3____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-16-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "6.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_5.5____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-16-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.11"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-16-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "47.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_40.0___80.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-16-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-16-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "10.63"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_10.61___13.89_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-16-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-16-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-17-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "1.59"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.31___1.61_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "1.59"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.31___1.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-17-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "2.73"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_2.25___2.76_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-17-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.1"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-17-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.2"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-17-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.07"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-17-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "38.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_20.0___40.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-17-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-17-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "7.87"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_7.45___8.77_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-17-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-135bfea5d5f5cf ;
+    sosa:hasResult fs-data:Result-59051026d1624f-17-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-18-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.89"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_2.49____As__RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.89"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_2.49____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-18-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "4.97"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_4.29____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-18-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "7.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_6.3____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-18-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "6.4"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_5.5____As__RP_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-18-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.21"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-18-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "96.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_80.0____As__RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-18-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP__As____0.01_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-18-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "13.43"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_10.61___13.89_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-18-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "0.0"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-0.0-2.5 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-18-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-19-AF a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___ASC "2.02"^^qudt:DECIMAL ;
+    fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC___PSC fs-data:Total-Carbon-_LP_Any-MoA_RP_-_PC____LP_1.91___2.49_RP_ ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___ASC "2.02"^^qudt:DECIMAL ;
+    fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC___PSC fs-data:Total-Organic-Carbon___LP_Heanes_RP____PC____LP_1.91___2.49_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-AF ;
+    sosa:observedProperty fs-data:ObservedProperty-Total-Organic-Carbon ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Heanes .
+
+fs-data:Observation-59051026d1624f-19-AG a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___ASC "3.47"^^qudt:DECIMAL ;
+    fs-data:Organic-Matter___LP_Calculated_RP____PC___PSC fs-data:Organic-Matter___LP_Calculated_RP____PC____LP_3.28___4.29_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-AG ;
+    sosa:observedProperty fs-data:ObservedProperty-Organic-Matter ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-19-N a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-Water_RP___ASC "6.0"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-Water_RP___PSC fs-data:pH___LP_1-5-Water_RP____LP_5.6___6.3_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-N ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-19-O a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:pH___LP_1-5-CaCl2_RP___ASC "5.2"^^qudt:DECIMAL ;
+    fs-data:pH___LP_1-5-CaCl2_RP___PSC fs-data:pH___LP_1-5-CaCl2_RP____LP_4.8___5.5_RP_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-O ;
+    sosa:observedProperty fs-data:ObservedProperty-pH ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-CaCl2 .
+
+fs-data:Observation-59051026d1624f-19-P a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__ASC "0.13"^^qudt:DECIMAL ;
+    fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m__PSC fs-data:Electrical-Conductivity___LP_1-5-Water_RP___dS_Pr_m___LP__As____0.4_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-dS_Pr_m ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-P ;
+    sosa:observedProperty fs-data:ObservedProperty-Electrical-Conductivity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-1-5-Water .
+
+fs-data:Observation-59051026d1624f-19-Q a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__ASC "72.0"^^qudt:DECIMAL ;
+    fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg__PSC fs-data:Phosphorus___LP_Colwell_RP___mg_Pr_kg___LP_40.0___80.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-mg_Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-Q ;
+    sosa:observedProperty fs-data:ObservedProperty-Phosphorus ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Colwell .
+
+fs-data:Observation-59051026d1624f-19-R a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__ASC "0.13"^^qudt:DECIMAL ;
+    fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Aluminium___LP_BaCl_Pr_NH4Cl_RP___cmol_LP__Pl__RP__Pr_kg___LP_0.13___0.2_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-R ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-BaCl_Pr_NH4Cl .
+
+fs-data:Observation-59051026d1624f-19-W a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__ASC "9.64"^^qudt:DECIMAL ;
+    fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg__PSC fs-data:Effective-Cation-Exchange-Capacity___LP_Calculated_RP___cmol_LP__Pl__RP__Pr_kg___LP_8.77___10.61_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-cmol_LP__Pl__RP__Pr_kg ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-W ;
+    sosa:observedProperty fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Observation-59051026d1624f-19-X a fs-onto:Observation,
+        owl:NamedIndividual ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___ASC "1.35"^^qudt:DECIMAL ;
+    fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC___PSC fs-data:Aluminium-_PC_-of-Cations___LP_Calculated_RP____PC____LP__As____5.0_RP_ ;
+    fs-data:unit__PSC fs-data:UoM-_PC_ ;
+    fs-onto:hasDepth fs-data:Depth-2.5-5.0 ;
+    fs-onto:hasGroup fs-data:MeasurementGroup-Soil-Analysis ;
+    sosa:hasFeatureOfInterest fs-data:ECCMO-4feffe24e3c21d ;
+    sosa:hasResult fs-data:Result-59051026d1624f-19-X ;
+    sosa:observedProperty fs-data:ObservedProperty-Aluminium-_PC_-of-Cations ;
+    sosa:phenomenonTime fs-data:Time-2022-07-10 ;
+    sosa:usedProcedure fs-data:MoA-Calculated .
+
+fs-data:Postcode-2666 a fs-onto:Postcode,
+        owl:NamedIndividual ;
+    fs-onto:postcode "2666"^^xsd:positiveInteger .
+
+fs-data:ProjectType-OTHER-instance a fs-onto:ProjectType,
+        owl:NamedIndividual ;
+    skos:prefLabel "OTHER"^^rdf:PlainLiteral .
+
+fs-data:Result-59051026d1624f-04-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.68"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-04-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "4.61"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-04-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.9"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-04-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.2"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-04-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.15"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-04-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "120.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-04-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-04-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "10.49"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-04-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-05-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.83"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-05-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.15"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-05-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.8"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-05-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.1"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-05-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.16"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-05-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "80.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-05-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-05-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "9.51"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-05-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-06-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.83"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-06-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "4.87"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-06-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-06-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.3"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-06-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.16"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-06-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "130.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-06-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-06-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "12.72"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-06-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-07-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.09"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-07-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.59"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-07-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.7"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-07-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-07-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.15"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-07-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "97.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-07-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-07-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "10.6"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-07-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-08-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.25"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-08-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.87"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-08-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.7"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-08-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.1"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-08-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.15"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-08-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "120.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-08-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-08-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "11.74"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-08-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-09-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.57"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-09-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.7"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-09-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-09-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.1"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-09-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.09"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-09-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "91.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-09-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.11"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-09-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "9.09"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-09-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.21"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-10-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.46"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-10-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "4.23"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-10-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.5"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-10-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.9"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-10-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.19"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-10-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "95.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-10-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-10-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "11.93"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-10-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-11-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.92"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-11-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.3"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-11-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.8"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-11-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "4.9"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-11-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.1"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-11-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "79.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-11-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.17"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-11-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "8.66"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-11-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.96"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-12-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.99"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-12-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.42"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-12-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.8"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-12-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.2"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-12-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.13"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-12-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "53.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-12-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-12-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "10.64"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-12-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-13-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.44"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-13-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.48"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-13-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-13-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.1"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-13-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.07"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-13-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "49.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-13-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.13"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-13-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "7.69"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-13-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.69"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-14-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.06"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-14-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.26"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-14-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.8"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-14-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.3"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-14-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.23"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-14-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "100.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-14-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-14-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "14.73"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-14-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-15-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.86"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-15-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.2"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-15-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-15-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.1"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-15-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.12"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-15-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "70.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-15-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-15-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "8.56"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-15-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-16-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.07"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-16-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.56"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-16-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.7"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-16-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-16-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.11"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-16-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "47.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-16-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-16-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "10.63"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-16-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-17-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.59"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-17-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.73"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-17-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.1"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-17-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.2"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-17-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.07"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-17-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "38.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-17-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-17-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "7.87"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-17-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-18-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.89"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-18-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "4.97"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-18-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "7.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-18-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.4"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-18-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.21"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-18-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "96.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-18-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-18-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "13.43"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-18-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-19-AF a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "2.02"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-19-AG a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "3.47"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Result-59051026d1624f-19-N a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "6.0"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-19-O a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "5.2"^^qudt:DECIMAL .
+
+fs-data:Result-59051026d1624f-19-P a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.13"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-dS_Pr_m .
+
+fs-data:Result-59051026d1624f-19-Q a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "72.0"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-mg_Pr_kg .
+
+fs-data:Result-59051026d1624f-19-R a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "0.13"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-19-W a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "9.64"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-cmol_LP__Pl__RP__Pr_kg .
+
+fs-data:Result-59051026d1624f-19-X a fs-onto:Result,
+        owl:NamedIndividual ;
+    qudt:numericValue "1.35"^^qudt:DECIMAL ;
+    qudt:unit fs-data:UoM-_PC_ .
+
+fs-data:Row-59051026d1624f-04 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0 .
+
+fs-data:Row-59051026d1624f-05 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0 .
+
+fs-data:Row-59051026d1624f-06 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-8319a5207bba46 .
+
+fs-data:Row-59051026d1624f-07 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-8319a5207bba46 .
+
+fs-data:Row-59051026d1624f-08 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0 .
+
+fs-data:Row-59051026d1624f-09 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0 .
+
+fs-data:Row-59051026d1624f-10 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-8319a5207bba46 .
+
+fs-data:Row-59051026d1624f-11 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-8319a5207bba46 .
+
+fs-data:Row-59051026d1624f-12 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 .
+
+fs-data:Row-59051026d1624f-13 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 .
+
+fs-data:Row-59051026d1624f-14 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 .
+
+fs-data:Row-59051026d1624f-15 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 .
+
+fs-data:Row-59051026d1624f-16 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-135bfea5d5f5cf .
+
+fs-data:Row-59051026d1624f-17 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-135bfea5d5f5cf .
+
+fs-data:Row-59051026d1624f-18 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-4feffe24e3c21d .
+
+fs-data:Row-59051026d1624f-19 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-4feffe24e3c21d .
+
+fs-data:Row-91319f15822e38-4 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0 .
+
+fs-data:Row-91319f15822e38-5 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-8319a5207bba46 .
+
+fs-data:Row-91319f15822e38-6 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 .
+
+fs-data:Row-91319f15822e38-7 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 .
+
+fs-data:Row-91319f15822e38-8 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-135bfea5d5f5cf .
+
+fs-data:Row-91319f15822e38-9 a fs-onto:Row,
+        owl:NamedIndividual ;
+    fs-onto:hasECCMO fs-data:ECCMO-4feffe24e3c21d .
+
+fs-data:State-NSW-instance a fs-onto:State,
+        owl:NamedIndividual ;
+    skos:prefLabel "NSW"^^rdf:PlainLiteral .
+
+fs-data:Table-59051026d1624f a fs-onto:Table,
+        owl:NamedIndividual ;
+    fs-onto:hasRow fs-data:Row-59051026d1624f-04,
+        fs-data:Row-59051026d1624f-05,
+        fs-data:Row-59051026d1624f-06,
+        fs-data:Row-59051026d1624f-07,
+        fs-data:Row-59051026d1624f-08,
+        fs-data:Row-59051026d1624f-09,
+        fs-data:Row-59051026d1624f-10,
+        fs-data:Row-59051026d1624f-11,
+        fs-data:Row-59051026d1624f-12,
+        fs-data:Row-59051026d1624f-13,
+        fs-data:Row-59051026d1624f-14,
+        fs-data:Row-59051026d1624f-15,
+        fs-data:Row-59051026d1624f-16,
+        fs-data:Row-59051026d1624f-17,
+        fs-data:Row-59051026d1624f-18,
+        fs-data:Row-59051026d1624f-19 ;
+    fs-onto:name "(2024-07-29) - SemIIM - SampleDataFile (Test).xlsx-SOIL"^^xsd:string .
+
+fs-data:Table-91319f15822e38 a fs-onto:Table,
+        owl:NamedIndividual ;
+    fs-onto:hasRow fs-data:Row-91319f15822e38-4,
+        fs-data:Row-91319f15822e38-5,
+        fs-data:Row-91319f15822e38-6,
+        fs-data:Row-91319f15822e38-7,
+        fs-data:Row-91319f15822e38-8,
+        fs-data:Row-91319f15822e38-9 ;
+    fs-onto:name "(2024-07-29) - SemIIM - SampleDataFile (Test).xlsx-MNG"^^xsd:string .
+
+fs-data:Time-2022 a fs-onto:Time,
+        owl:NamedIndividual .
+
+fs-data:Time-Day-01 a fs-onto:Time-Day,
+        owl:NamedIndividual .
+
+fs-data:Time-Day-10 a fs-onto:Time-Day,
+        owl:NamedIndividual .
+
+fs-data:Time-Day-22 a fs-onto:Time-Day,
+        owl:NamedIndividual .
+
+fs-data:Time-Month-05 a fs-onto:Time-Month,
+        owl:NamedIndividual .
+
+fs-data:Time-Month-06 a fs-onto:Time-Month,
+        owl:NamedIndividual .
+
+fs-data:Time-Month-07 a fs-onto:Time-Month,
+        owl:NamedIndividual .
+
+fs-data:Time-MonthCount-605 a fs-onto:Time-MonthCount,
+        owl:NamedIndividual .
+
+fs-data:Time-MonthCount-606 a fs-onto:Time-MonthCount,
+        owl:NamedIndividual .
+
+fs-data:Time-MonthCount-631 a fs-onto:Time-MonthCount,
+        owl:NamedIndividual .
+
+fs-data:ApplicationMethod-SURFACE-APPLIED-instance a fs-onto:ApplicationMethod,
+        owl:NamedIndividual ;
+    skos:prefLabel "SURFACE APPLIED"^^rdf:PlainLiteral .
+
+fs-data:CultivationTreatment-INCORPORATED-BY-SOWING-instance a fs-onto:CultivationTreatment,
+        owl:NamedIndividual ;
+    skos:prefLabel "INCORPORATED BY SOWING"^^rdf:PlainLiteral .
+
+fs-data:CultivationTreatment-SPEED-TILLER-instance a fs-onto:CultivationTreatment,
+        owl:NamedIndividual ;
+    skos:prefLabel "SPEED TILLER"^^rdf:PlainLiteral .
+
+fs-data:Time-2020 a fs-onto:Time,
+        owl:NamedIndividual .
+
+fs-data:Treatment-1afe05d869f958 a fs-onto:Treatment,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|"^^xsd:string ;
+    fs-onto:isControl false ;
+    fs-onto:name "1 t/ha with inc"^^xsd:string ;
+    fs-onto:number "3"^^xsd:positiveInteger .
+
+fs-data:Treatment-2d6d03671127f8 a fs-onto:Treatment,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=1|TreatmentName='Control'|Plot=None|"^^xsd:string ;
+    fs-onto:isControl true ;
+    fs-onto:name "Control"^^xsd:string ;
+    fs-onto:number "1"^^xsd:positiveInteger .
+
+fs-data:Treatment-490dddbc031c2c a fs-onto:Treatment,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|"^^xsd:string ;
+    fs-onto:isControl false ;
+    fs-onto:name "1 t/ha with inc"^^xsd:string ;
+    fs-onto:number "3"^^xsd:positiveInteger .
+
+fs-data:Treatment-604ac497772e42 a fs-onto:Treatment,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|"^^xsd:string ;
+    fs-onto:isControl false ;
+    fs-onto:name "1 t/ha no inc"^^xsd:string ;
+    fs-onto:number "2"^^xsd:positiveInteger .
+
+fs-data:Treatment-bf8d4a8c8ff4e8 a fs-onto:Treatment,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=1|TreatmentName='Control'|Plot=None|"^^xsd:string ;
+    fs-onto:isControl true ;
+    fs-onto:name "Control"^^xsd:string ;
+    fs-onto:number "1"^^xsd:positiveInteger .
+
+fs-data:Treatment-e3a86735410e61 a fs-onto:Treatment,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|"^^xsd:string ;
+    fs-onto:isControl false ;
+    fs-onto:name "1 t/ha no inc"^^xsd:string ;
+    fs-onto:number "2"^^xsd:positiveInteger .
+
+fs-data:Management-Amelioration-Lime-83bd1909b31e25 a fs-onto:Management-Amelioration-Lime,
+        owl:NamedIndividual ;
+    rdfs:label "|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='SPEED TILLER'|DepthOfCultivation=10.0|"^^xsd:string ;
+    fs-data:Depth-Of-Cultivation__PSC fs-data:Depth-Of-Cultivation___LP_7.5___12.5_RP_ ;
+    fs-data:Lime-Application-Rate__PSC fs-data:Lime-Application-Rate___LP__As____2.0_RP_ ;
+    fs-onto:hasCultivationTreatment fs-data:CultivationTreatment-SPEED-TILLER-instance ;
+    fs-onto:hasDepthOfCultivation "10.0"^^xsd:float ;
+    fs-onto:hasLimeApplicationRate "1.0"^^xsd:float ;
+    fs-onto:hasLimeApplied fs-data:ApplicationMethod-SURFACE-APPLIED-instance .
+
+fs-data:Management-Amelioration-Lime-f8a86d3ed5873b a fs-onto:Management-Amelioration-Lime,
+        owl:NamedIndividual ;
+    rdfs:label "|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-data:Lime-Application-Rate__PSC fs-data:Lime-Application-Rate___LP__As____2.0_RP_ ;
+    fs-onto:hasCultivationTreatment fs-data:CultivationTreatment-INCORPORATED-BY-SOWING-instance ;
+    fs-onto:hasLimeApplicationRate "1.0"^^xsd:float ;
+    fs-onto:hasLimeApplied fs-data:ApplicationMethod-SURFACE-APPLIED-instance .
+
+fs-data:Management-Amelioration-eab943c4c09774 a fs-onto:Management-Amelioration,
+        owl:NamedIndividual ;
+    rdfs:label "|CultivationTreatment='SPEED TILLER'|DepthOfCultivation=10.0|"^^xsd:string ;
+    fs-data:Depth-Of-Cultivation__PSC fs-data:Depth-Of-Cultivation___LP_7.5___12.5_RP_ ;
+    fs-onto:hasCultivationTreatment fs-data:CultivationTreatment-SPEED-TILLER-instance ;
+    fs-onto:hasDepthOfCultivation "10.0"^^xsd:float .
+
+fs-data:Replicate-1890893e4c52e6 a fs-onto:Replicate,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|"^^xsd:string ;
+    fs-onto:hasTreatment fs-data:Treatment-1afe05d869f958,
+        fs-data:Treatment-bf8d4a8c8ff4e8,
+        fs-data:Treatment-e3a86735410e61 ;
+    fs-onto:replicate "2"^^xsd:positiveInteger .
+
+fs-data:Replicate-2de6b78d360d2d a fs-onto:Replicate,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|"^^xsd:string ;
+    fs-onto:hasTreatment fs-data:Treatment-2d6d03671127f8,
+        fs-data:Treatment-490dddbc031c2c,
+        fs-data:Treatment-604ac497772e42 ;
+    fs-onto:replicate "1"^^xsd:positiveInteger .
+
+fs-data:AddressSystem-305304b2563b97 a fs-onto:AddressSystem,
+        owl:NamedIndividual ;
+    rdfs:label "|PropertyAddress=None|Address1=None|Address2=None|TownwithState=None|TownwithoutState=None|TownwithPostcode=None|GenericAddress=None|Region=None|Postcode=2666|State='NSW'|Nofixedformat=None|"^^xsd:string ;
+    locn:adminUnitL2 fs-data:State-NSW-instance ;
+    locn:postCode fs-data:Postcode-2666 .
+
+fs-data:Host-OTHER-instance a fs-onto:Host,
+        owl:NamedIndividual ;
+    skos:prefLabel "OTHER"^^rdf:PlainLiteral .
+
+fs-data:Project-e7ea4f07308ba2 a fs-onto:Project,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|"^^xsd:string ;
+    fs-onto:hasProjectType fs-data:ProjectType-OTHER-instance ;
+    fs-onto:name "Test Project"^^xsd:string .
+
+fs-data:Trial-124a0d175f7948 a fs-onto:Trial,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|"^^xsd:string ;
+    fs-onto:hasReplicate fs-data:Replicate-1890893e4c52e6,
+        fs-data:Replicate-2de6b78d360d2d ;
+    fs-onto:name "Testing"^^xsd:string .
+
+fs-data:WGS84-b6544f45487142 a fs-onto:WGS84,
+        owl:NamedIndividual ;
+    rdfs:label "|GPSLatitude=2666.0|GPSLongitude=None|"^^xsd:string ;
+    geo:asWKT "Point(None 2666.0)"^^geo:wktLiteral ;
+    w3c-geo:lat "2666.0"^^xsd:float .
+
+time:unitDay a owl:NamedIndividual,
+        time:TemporalUnit .
+
+fs-data:Management-Amelioration-7740cb648163bd a fs-onto:Management-Amelioration,
+        owl:NamedIndividual ;
+    rdfs:label "|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasCultivationTreatment fs-data:CultivationTreatment-INCORPORATED-BY-SOWING-instance .
+
+fs-data:CropType-PASTURE-instance a fs-onto:CropType,
+        owl:NamedIndividual ;
+    skos:prefLabel "PASTURE"^^rdf:PlainLiteral .
+
+fs-data:MoA-1-5-CaCl2 a fs-onto:MoA,
+        owl:NamedIndividual ;
+    fs-onto:name "1:5 CaCl2"^^xsd:string .
+
+fs-data:MoA-BaCl_Pr_NH4Cl a fs-onto:MoA,
+        owl:NamedIndividual ;
+    fs-onto:name "BaCl/NH4Cl"^^xsd:string .
+
+fs-data:MoA-Colwell a fs-onto:MoA,
+        owl:NamedIndividual ;
+    fs-onto:name "Colwell"^^xsd:string .
+
+fs-data:MoA-Heanes a fs-onto:MoA,
+        owl:NamedIndividual ;
+    fs-onto:name "Heanes"^^xsd:string .
+
+fs-data:ObservedProperty-Aluminium a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "Aluminium"^^xsd:string .
+
+fs-data:ObservedProperty-Aluminium-_PC_-of-Cations a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "Aluminium % of Cations"^^xsd:string .
+
+fs-data:ObservedProperty-Effective-Cation-Exchange-Capacity a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "Effective Cation Exchange Capacity"^^xsd:string .
+
+fs-data:ObservedProperty-Electrical-Conductivity a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "Electrical Conductivity"^^xsd:string .
+
+fs-data:ObservedProperty-Organic-Matter a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "Organic Matter"^^xsd:string .
+
+fs-data:ObservedProperty-Phosphorus a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "Phosphorus"^^xsd:string .
+
+fs-data:ObservedProperty-Total-Organic-Carbon a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "Total Organic Carbon"^^xsd:string .
+
+fs-data:Time-2020-05-22 a fs-onto:Time,
+        owl:NamedIndividual ;
+    fs-data:day__ASC 22 ;
+    fs-data:day__PSC fs-data:Time-Day-22 ;
+    fs-data:hasMonthCount__PSC fs-data:Time-MonthCount-605 ;
+    fs-data:month__ASC 5 ;
+    fs-data:month__PSC fs-data:Time-Month-05 ;
+    fs-data:unitType__PSC time:unitDay ;
+    fs-data:year__ASC 2020 ;
+    fs-data:year__PSC fs-data:Time-2020 ;
+    fs-onto:hasMonthCount "605"^^xsd:positiveInteger ;
+    time:inDateTime fs-data:GeneralDateTimeDescription-2020-05-22 .
+
+fs-data:CropSpecies-CLOVER-instance a fs-onto:CropSpecies,
+        owl:NamedIndividual ;
+    skos:prefLabel "CLOVER"^^rdf:PlainLiteral .
+
+fs-data:CropSpecies-LUCERNE-instance a fs-onto:CropSpecies,
+        owl:NamedIndividual ;
+    skos:prefLabel "LUCERNE"^^rdf:PlainLiteral .
+
+fs-data:ECCMO-135bfea5d5f5cf a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-a6126f239da007 ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-83bd1909b31e25,
+        fs-data:Management-Amelioration-eab943c4c09774 ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-16-AF,
+        fs-data:Observation-59051026d1624f-16-AG,
+        fs-data:Observation-59051026d1624f-16-N,
+        fs-data:Observation-59051026d1624f-16-O,
+        fs-data:Observation-59051026d1624f-16-P,
+        fs-data:Observation-59051026d1624f-16-Q,
+        fs-data:Observation-59051026d1624f-16-R,
+        fs-data:Observation-59051026d1624f-16-W,
+        fs-data:Observation-59051026d1624f-16-X,
+        fs-data:Observation-59051026d1624f-17-AF,
+        fs-data:Observation-59051026d1624f-17-AG,
+        fs-data:Observation-59051026d1624f-17-N,
+        fs-data:Observation-59051026d1624f-17-O,
+        fs-data:Observation-59051026d1624f-17-P,
+        fs-data:Observation-59051026d1624f-17-Q,
+        fs-data:Observation-59051026d1624f-17-R,
+        fs-data:Observation-59051026d1624f-17-W,
+        fs-data:Observation-59051026d1624f-17-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-2de6b78d360d2d ;
+    fs-onto:hasTreatment fs-data:Treatment-490dddbc031c2c ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
+
+fs-data:ECCMO-23fd3cda7a00b9 a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-8532f192022aff ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd,
+        fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-12-AF,
+        fs-data:Observation-59051026d1624f-12-AG,
+        fs-data:Observation-59051026d1624f-12-N,
+        fs-data:Observation-59051026d1624f-12-O,
+        fs-data:Observation-59051026d1624f-12-P,
+        fs-data:Observation-59051026d1624f-12-Q,
+        fs-data:Observation-59051026d1624f-12-R,
+        fs-data:Observation-59051026d1624f-12-W,
+        fs-data:Observation-59051026d1624f-12-X,
+        fs-data:Observation-59051026d1624f-13-AF,
+        fs-data:Observation-59051026d1624f-13-AG,
+        fs-data:Observation-59051026d1624f-13-N,
+        fs-data:Observation-59051026d1624f-13-O,
+        fs-data:Observation-59051026d1624f-13-P,
+        fs-data:Observation-59051026d1624f-13-Q,
+        fs-data:Observation-59051026d1624f-13-R,
+        fs-data:Observation-59051026d1624f-13-W,
+        fs-data:Observation-59051026d1624f-13-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-2de6b78d360d2d ;
+    fs-onto:hasTreatment fs-data:Treatment-604ac497772e42 ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
+
+fs-data:ECCMO-4feffe24e3c21d a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-7e050717059bda ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-83bd1909b31e25,
+        fs-data:Management-Amelioration-eab943c4c09774 ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-18-AF,
+        fs-data:Observation-59051026d1624f-18-AG,
+        fs-data:Observation-59051026d1624f-18-N,
+        fs-data:Observation-59051026d1624f-18-O,
+        fs-data:Observation-59051026d1624f-18-P,
+        fs-data:Observation-59051026d1624f-18-Q,
+        fs-data:Observation-59051026d1624f-18-R,
+        fs-data:Observation-59051026d1624f-18-W,
+        fs-data:Observation-59051026d1624f-18-X,
+        fs-data:Observation-59051026d1624f-19-AF,
+        fs-data:Observation-59051026d1624f-19-AG,
+        fs-data:Observation-59051026d1624f-19-N,
+        fs-data:Observation-59051026d1624f-19-O,
+        fs-data:Observation-59051026d1624f-19-P,
+        fs-data:Observation-59051026d1624f-19-Q,
+        fs-data:Observation-59051026d1624f-19-R,
+        fs-data:Observation-59051026d1624f-19-W,
+        fs-data:Observation-59051026d1624f-19-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-1890893e4c52e6 ;
+    fs-onto:hasTreatment fs-data:Treatment-1afe05d869f958 ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
+
+fs-data:ECCMO-c2a7b5aaa23d99 a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-3f6e63b1b970b9 ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd,
+        fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-14-AF,
+        fs-data:Observation-59051026d1624f-14-AG,
+        fs-data:Observation-59051026d1624f-14-N,
+        fs-data:Observation-59051026d1624f-14-O,
+        fs-data:Observation-59051026d1624f-14-P,
+        fs-data:Observation-59051026d1624f-14-Q,
+        fs-data:Observation-59051026d1624f-14-R,
+        fs-data:Observation-59051026d1624f-14-W,
+        fs-data:Observation-59051026d1624f-14-X,
+        fs-data:Observation-59051026d1624f-15-AF,
+        fs-data:Observation-59051026d1624f-15-AG,
+        fs-data:Observation-59051026d1624f-15-N,
+        fs-data:Observation-59051026d1624f-15-O,
+        fs-data:Observation-59051026d1624f-15-P,
+        fs-data:Observation-59051026d1624f-15-Q,
+        fs-data:Observation-59051026d1624f-15-R,
+        fs-data:Observation-59051026d1624f-15-W,
+        fs-data:Observation-59051026d1624f-15-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-1890893e4c52e6 ;
+    fs-onto:hasTreatment fs-data:Treatment-e3a86735410e61 ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
+
+fs-data:MoA-1-5-Water a fs-onto:MoA,
+        owl:NamedIndividual ;
+    fs-onto:name "1:5 Water"^^xsd:string .
+
+fs-data:ObservedProperty-pH a fs-onto:ObservedProperty,
+        owl:NamedIndividual ;
+    fs-onto:name "pH"^^xsd:string .
+
+fs-data:UoM-dS_Pr_m a fs-onto:UoM,
+        owl:NamedIndividual ;
+    fs-onto:unit "dS/m"^^xsd:string .
+
+fs-data:UoM-mg_Pr_kg a fs-onto:UoM,
+        owl:NamedIndividual ;
+    fs-onto:unit "mg/kg"^^xsd:string .
+
+fs-data:Time-2020-06-01 a fs-onto:Time,
+        owl:NamedIndividual ;
+    fs-data:day__ASC 1 ;
+    fs-data:day__PSC fs-data:Time-Day-01 ;
+    fs-data:hasMonthCount__PSC fs-data:Time-MonthCount-606 ;
+    fs-data:month__ASC 6 ;
+    fs-data:month__PSC fs-data:Time-Month-06 ;
+    fs-data:unitType__PSC time:unitDay ;
+    fs-data:year__ASC 2020 ;
+    fs-data:year__PSC fs-data:Time-2020 ;
+    fs-onto:hasMonthCount "606"^^xsd:positiveInteger ;
+    time:inDateTime fs-data:GeneralDateTimeDescription-2020-06-01 .
+
+fs-data:ECCMO-72369b7701cad0 a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-b127b205740d15 ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-04-AF,
+        fs-data:Observation-59051026d1624f-04-AG,
+        fs-data:Observation-59051026d1624f-04-N,
+        fs-data:Observation-59051026d1624f-04-O,
+        fs-data:Observation-59051026d1624f-04-P,
+        fs-data:Observation-59051026d1624f-04-Q,
+        fs-data:Observation-59051026d1624f-04-R,
+        fs-data:Observation-59051026d1624f-04-W,
+        fs-data:Observation-59051026d1624f-04-X,
+        fs-data:Observation-59051026d1624f-05-AF,
+        fs-data:Observation-59051026d1624f-05-AG,
+        fs-data:Observation-59051026d1624f-05-N,
+        fs-data:Observation-59051026d1624f-05-O,
+        fs-data:Observation-59051026d1624f-05-P,
+        fs-data:Observation-59051026d1624f-05-Q,
+        fs-data:Observation-59051026d1624f-05-R,
+        fs-data:Observation-59051026d1624f-05-W,
+        fs-data:Observation-59051026d1624f-05-X,
+        fs-data:Observation-59051026d1624f-08-AF,
+        fs-data:Observation-59051026d1624f-08-AG,
+        fs-data:Observation-59051026d1624f-08-N,
+        fs-data:Observation-59051026d1624f-08-O,
+        fs-data:Observation-59051026d1624f-08-P,
+        fs-data:Observation-59051026d1624f-08-Q,
+        fs-data:Observation-59051026d1624f-08-R,
+        fs-data:Observation-59051026d1624f-08-W,
+        fs-data:Observation-59051026d1624f-08-X,
+        fs-data:Observation-59051026d1624f-09-AF,
+        fs-data:Observation-59051026d1624f-09-AG,
+        fs-data:Observation-59051026d1624f-09-N,
+        fs-data:Observation-59051026d1624f-09-O,
+        fs-data:Observation-59051026d1624f-09-P,
+        fs-data:Observation-59051026d1624f-09-Q,
+        fs-data:Observation-59051026d1624f-09-R,
+        fs-data:Observation-59051026d1624f-09-W,
+        fs-data:Observation-59051026d1624f-09-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-2de6b78d360d2d ;
+    fs-onto:hasTreatment fs-data:Treatment-2d6d03671127f8 ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
+
+fs-data:ECCMO-8319a5207bba46 a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-bfb07335d6ae23 ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-06-AF,
+        fs-data:Observation-59051026d1624f-06-AG,
+        fs-data:Observation-59051026d1624f-06-N,
+        fs-data:Observation-59051026d1624f-06-O,
+        fs-data:Observation-59051026d1624f-06-P,
+        fs-data:Observation-59051026d1624f-06-Q,
+        fs-data:Observation-59051026d1624f-06-R,
+        fs-data:Observation-59051026d1624f-06-W,
+        fs-data:Observation-59051026d1624f-06-X,
+        fs-data:Observation-59051026d1624f-07-AF,
+        fs-data:Observation-59051026d1624f-07-AG,
+        fs-data:Observation-59051026d1624f-07-N,
+        fs-data:Observation-59051026d1624f-07-O,
+        fs-data:Observation-59051026d1624f-07-P,
+        fs-data:Observation-59051026d1624f-07-Q,
+        fs-data:Observation-59051026d1624f-07-R,
+        fs-data:Observation-59051026d1624f-07-W,
+        fs-data:Observation-59051026d1624f-07-X,
+        fs-data:Observation-59051026d1624f-10-AF,
+        fs-data:Observation-59051026d1624f-10-AG,
+        fs-data:Observation-59051026d1624f-10-N,
+        fs-data:Observation-59051026d1624f-10-O,
+        fs-data:Observation-59051026d1624f-10-P,
+        fs-data:Observation-59051026d1624f-10-Q,
+        fs-data:Observation-59051026d1624f-10-R,
+        fs-data:Observation-59051026d1624f-10-W,
+        fs-data:Observation-59051026d1624f-10-X,
+        fs-data:Observation-59051026d1624f-11-AF,
+        fs-data:Observation-59051026d1624f-11-AG,
+        fs-data:Observation-59051026d1624f-11-N,
+        fs-data:Observation-59051026d1624f-11-O,
+        fs-data:Observation-59051026d1624f-11-P,
+        fs-data:Observation-59051026d1624f-11-Q,
+        fs-data:Observation-59051026d1624f-11-R,
+        fs-data:Observation-59051026d1624f-11-W,
+        fs-data:Observation-59051026d1624f-11-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-1890893e4c52e6 ;
+    fs-onto:hasTreatment fs-data:Treatment-bf8d4a8c8ff4e8 ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
+
+fs-data:MoA-Calculated a fs-onto:MoA,
+        owl:NamedIndividual ;
+    fs-onto:name "Calculated"^^xsd:string .
+
+fs-data:UoM-cmol_LP__Pl__RP__Pr_kg a fs-onto:UoM,
+        owl:NamedIndividual ;
+    fs-onto:unit "cmol(+)/kg"^^xsd:string .
+
+fs-data:Depth-0.0-2.5 a fs-onto:Depth,
+        owl:NamedIndividual ;
+    fs-onto:from "0.0"^^xsd:float ;
+    fs-onto:to "2.5"^^xsd:float .
+
+fs-data:Depth-2.5-5.0 a fs-onto:Depth,
+        owl:NamedIndividual ;
+    fs-onto:from "2.5"^^xsd:float ;
+    fs-onto:to "5.0"^^xsd:float .
+
+fs-data:UoM-_PC_ a fs-onto:UoM,
+        owl:NamedIndividual ;
+    fs-onto:unit "%"^^xsd:string .
+
+fs-data:Time-2022-07-10 a fs-onto:Time,
+        owl:NamedIndividual ;
+    fs-data:day__ASC 10 ;
+    fs-data:day__PSC fs-data:Time-Day-10 ;
+    fs-data:hasMonthCount__PSC fs-data:Time-MonthCount-631 ;
+    fs-data:month__ASC 7 ;
+    fs-data:month__PSC fs-data:Time-Month-07 ;
+    fs-data:unitType__PSC time:unitDay ;
+    fs-data:year__ASC 2022 ;
+    fs-data:year__PSC fs-data:Time-2022 ;
+    fs-onto:hasMonthCount "631"^^xsd:positiveInteger ;
+    time:inDateTime fs-data:GeneralDateTimeDescription-2022-07-10 .
+
+fs-data:MeasurementGroup-Soil-Analysis a fs-onto:MeasurementGroup,
+        owl:NamedIndividual ;
+    fs-onto:name "Soil Analysis"^^xsd:string .
+
