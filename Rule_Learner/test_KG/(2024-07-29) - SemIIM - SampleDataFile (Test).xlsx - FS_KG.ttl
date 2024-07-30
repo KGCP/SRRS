@@ -50,29 +50,15 @@ fs-data:ECCMObyTre-eb42340460dc4a a fs-onto:ECCMObyTre,
 fs-data:File-220bba99467cc2 a fs-onto:File,
         owl:NamedIndividual ;
     fs-onto:name "(2024-07-29) - SemIIM - SampleDataFile (Test).xlsx"^^xsd:string ;
-    prov:generatedAtTime "2024-07-29T12:50:18.642243"^^xsd:dateTime ;
+    prov:generatedAtTime "2024-07-30T11:50:08.739197"^^xsd:dateTime ;
     prov:hadMember fs-data:Table-59051026d1624f,
         fs-data:Table-91319f15822e38 .
 
-fs-data:ManagementUsed-04ac78527fc47a a fs-onto:ManagementUsed,
+fs-data:ManagementUsed-25972d3042b730 a fs-onto:ManagementUsed,
         owl:NamedIndividual ;
-    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
-    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
-    fs-onto:hasTime fs-data:Time-2020-05-22 .
-
-fs-data:ManagementUsed-1660913366ce00 a fs-onto:ManagementUsed,
-        owl:NamedIndividual ;
-    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
-    fs-onto:hasECCMO fs-data:ECCMO-8319a5207bba46 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
-    fs-onto:hasTime fs-data:Time-2020-05-22 .
-
-fs-data:ManagementUsed-232e2163e370c8 a fs-onto:ManagementUsed,
-        owl:NamedIndividual ;
-    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
-    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment=None|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-8dff5376ccd223 ;
     fs-onto:hasTime fs-data:Time-2020-05-22 .
 
 fs-data:ManagementUsed-426e2a80c77391 a fs-onto:ManagementUsed,
@@ -89,25 +75,11 @@ fs-data:ManagementUsed-6680d2c9c84c0b a fs-onto:ManagementUsed,
     fs-onto:hasManagement fs-data:Management-Amelioration-eab943c4c09774 ;
     fs-onto:hasTime fs-data:Time-2020-05-22 .
 
-fs-data:ManagementUsed-920736ed6c350b a fs-onto:ManagementUsed,
+fs-data:ManagementUsed-7ede1ccb5d16d5 a fs-onto:ManagementUsed,
         owl:NamedIndividual ;
-    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
-    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
-    fs-onto:hasTime fs-data:Time-2020-05-22 .
-
-fs-data:ManagementUsed-ae417c27fed05d a fs-onto:ManagementUsed,
-        owl:NamedIndividual ;
-    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
-    fs-onto:hasECCMO fs-data:ECCMO-23fd3cda7a00b9 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
-    fs-onto:hasTime fs-data:Time-2020-05-22 .
-
-fs-data:ManagementUsed-cd302ee8b5d827 a fs-onto:ManagementUsed,
-        owl:NamedIndividual ;
-    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=1|TreatmentName='Control'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
-    fs-onto:hasECCMO fs-data:ECCMO-72369b7701cad0 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
+    rdfs:label "ECCMO:|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|;Time:2020-05-22;Management:|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment=None|DepthOfCultivation=None|"^^xsd:string ;
+    fs-onto:hasECCMO fs-data:ECCMO-c2a7b5aaa23d99 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-8dff5376ccd223 ;
     fs-onto:hasTime fs-data:Time-2020-05-22 .
 
 fs-data:ManagementUsed-d5d2ddadef6e1c a fs-onto:ManagementUsed,
@@ -2929,10 +2901,6 @@ fs-data:ApplicationMethod-SURFACE-APPLIED-instance a fs-onto:ApplicationMethod,
         owl:NamedIndividual ;
     skos:prefLabel "SURFACE APPLIED"^^rdf:PlainLiteral .
 
-fs-data:CultivationTreatment-INCORPORATED-BY-SOWING-instance a fs-onto:CultivationTreatment,
-        owl:NamedIndividual ;
-    skos:prefLabel "INCORPORATED BY SOWING"^^rdf:PlainLiteral .
-
 fs-data:CultivationTreatment-SPEED-TILLER-instance a fs-onto:CultivationTreatment,
         owl:NamedIndividual ;
     skos:prefLabel "SPEED TILLER"^^rdf:PlainLiteral .
@@ -2992,11 +2960,10 @@ fs-data:Management-Amelioration-Lime-83bd1909b31e25 a fs-onto:Management-Amelior
     fs-onto:hasLimeApplicationRate "1.0"^^xsd:float ;
     fs-onto:hasLimeApplied fs-data:ApplicationMethod-SURFACE-APPLIED-instance .
 
-fs-data:Management-Amelioration-Lime-f8a86d3ed5873b a fs-onto:Management-Amelioration-Lime,
+fs-data:Management-Amelioration-Lime-8dff5376ccd223 a fs-onto:Management-Amelioration-Lime,
         owl:NamedIndividual ;
-    rdfs:label "|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
+    rdfs:label "|LimeApplied='SURFACE APPLIED'|LimeApplicationRate=1.0|DepthOfLimePlacement=None|CultivationTreatment=None|DepthOfCultivation=None|"^^xsd:string ;
     fs-data:Lime-Application-Rate__PSC fs-data:Lime-Application-Rate___LP__As____2.0_RP_ ;
-    fs-onto:hasCultivationTreatment fs-data:CultivationTreatment-INCORPORATED-BY-SOWING-instance ;
     fs-onto:hasLimeApplicationRate "1.0"^^xsd:float ;
     fs-onto:hasLimeApplied fs-data:ApplicationMethod-SURFACE-APPLIED-instance .
 
@@ -3055,14 +3022,22 @@ fs-data:WGS84-b6544f45487142 a fs-onto:WGS84,
 time:unitDay a owl:NamedIndividual,
         time:TemporalUnit .
 
-fs-data:Management-Amelioration-7740cb648163bd a fs-onto:Management-Amelioration,
-        owl:NamedIndividual ;
-    rdfs:label "|CultivationTreatment='INCORPORATED BY SOWING'|DepthOfCultivation=None|"^^xsd:string ;
-    fs-onto:hasCultivationTreatment fs-data:CultivationTreatment-INCORPORATED-BY-SOWING-instance .
-
 fs-data:CropType-PASTURE-instance a fs-onto:CropType,
         owl:NamedIndividual ;
     skos:prefLabel "PASTURE"^^rdf:PlainLiteral .
+
+fs-data:Time-2020-05-22 a fs-onto:Time,
+        owl:NamedIndividual ;
+    fs-data:day__ASC 22 ;
+    fs-data:day__PSC fs-data:Time-Day-22 ;
+    fs-data:hasMonthCount__PSC fs-data:Time-MonthCount-605 ;
+    fs-data:month__ASC 5 ;
+    fs-data:month__PSC fs-data:Time-Month-05 ;
+    fs-data:unitType__PSC time:unitDay ;
+    fs-data:year__ASC 2020 ;
+    fs-data:year__PSC fs-data:Time-2020 ;
+    fs-onto:hasMonthCount "605"^^xsd:positiveInteger ;
+    time:inDateTime fs-data:GeneralDateTimeDescription-2020-05-22 .
 
 fs-data:MoA-1-5-CaCl2 a fs-onto:MoA,
         owl:NamedIndividual ;
@@ -3108,19 +3083,6 @@ fs-data:ObservedProperty-Total-Organic-Carbon a fs-onto:ObservedProperty,
         owl:NamedIndividual ;
     fs-onto:name "Total Organic Carbon"^^xsd:string .
 
-fs-data:Time-2020-05-22 a fs-onto:Time,
-        owl:NamedIndividual ;
-    fs-data:day__ASC 22 ;
-    fs-data:day__PSC fs-data:Time-Day-22 ;
-    fs-data:hasMonthCount__PSC fs-data:Time-MonthCount-605 ;
-    fs-data:month__ASC 5 ;
-    fs-data:month__PSC fs-data:Time-Month-05 ;
-    fs-data:unitType__PSC time:unitDay ;
-    fs-data:year__ASC 2020 ;
-    fs-data:year__PSC fs-data:Time-2020 ;
-    fs-onto:hasMonthCount "605"^^xsd:positiveInteger ;
-    time:inDateTime fs-data:GeneralDateTimeDescription-2020-05-22 .
-
 fs-data:CropSpecies-CLOVER-instance a fs-onto:CropSpecies,
         owl:NamedIndividual ;
     skos:prefLabel "CLOVER"^^rdf:PlainLiteral .
@@ -3128,6 +3090,74 @@ fs-data:CropSpecies-CLOVER-instance a fs-onto:CropSpecies,
 fs-data:CropSpecies-LUCERNE-instance a fs-onto:CropSpecies,
         owl:NamedIndividual ;
     skos:prefLabel "LUCERNE"^^rdf:PlainLiteral .
+
+fs-data:ECCMO-23fd3cda7a00b9 a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-8532f192022aff ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-8dff5376ccd223 ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-12-AF,
+        fs-data:Observation-59051026d1624f-12-AG,
+        fs-data:Observation-59051026d1624f-12-N,
+        fs-data:Observation-59051026d1624f-12-O,
+        fs-data:Observation-59051026d1624f-12-P,
+        fs-data:Observation-59051026d1624f-12-Q,
+        fs-data:Observation-59051026d1624f-12-R,
+        fs-data:Observation-59051026d1624f-12-W,
+        fs-data:Observation-59051026d1624f-12-X,
+        fs-data:Observation-59051026d1624f-13-AF,
+        fs-data:Observation-59051026d1624f-13-AG,
+        fs-data:Observation-59051026d1624f-13-N,
+        fs-data:Observation-59051026d1624f-13-O,
+        fs-data:Observation-59051026d1624f-13-P,
+        fs-data:Observation-59051026d1624f-13-Q,
+        fs-data:Observation-59051026d1624f-13-R,
+        fs-data:Observation-59051026d1624f-13-W,
+        fs-data:Observation-59051026d1624f-13-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-2de6b78d360d2d ;
+    fs-onto:hasTreatment fs-data:Treatment-604ac497772e42 ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
+
+fs-data:ECCMO-c2a7b5aaa23d99 a fs-onto:ECCMO,
+        owl:NamedIndividual ;
+    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
+    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
+        fs-data:CropSpecies-LUCERNE-instance ;
+    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
+    fs-onto:hasCropUsed fs-data:CropUsed-3f6e63b1b970b9 ;
+    fs-onto:hasHost fs-data:Host-OTHER-instance ;
+    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
+        fs-data:WGS84-b6544f45487142 ;
+    fs-onto:hasManagement fs-data:Management-Amelioration-Lime-8dff5376ccd223 ;
+    fs-onto:hasObservation fs-data:Observation-59051026d1624f-14-AF,
+        fs-data:Observation-59051026d1624f-14-AG,
+        fs-data:Observation-59051026d1624f-14-N,
+        fs-data:Observation-59051026d1624f-14-O,
+        fs-data:Observation-59051026d1624f-14-P,
+        fs-data:Observation-59051026d1624f-14-Q,
+        fs-data:Observation-59051026d1624f-14-R,
+        fs-data:Observation-59051026d1624f-14-W,
+        fs-data:Observation-59051026d1624f-14-X,
+        fs-data:Observation-59051026d1624f-15-AF,
+        fs-data:Observation-59051026d1624f-15-AG,
+        fs-data:Observation-59051026d1624f-15-N,
+        fs-data:Observation-59051026d1624f-15-O,
+        fs-data:Observation-59051026d1624f-15-P,
+        fs-data:Observation-59051026d1624f-15-Q,
+        fs-data:Observation-59051026d1624f-15-R,
+        fs-data:Observation-59051026d1624f-15-W,
+        fs-data:Observation-59051026d1624f-15-X ;
+    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
+    fs-onto:hasReplicate fs-data:Replicate-1890893e4c52e6 ;
+    fs-onto:hasTreatment fs-data:Treatment-e3a86735410e61 ;
+    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
 
 fs-data:ECCMO-135bfea5d5f5cf a fs-onto:ECCMO,
         owl:NamedIndividual ;
@@ -3164,41 +3194,6 @@ fs-data:ECCMO-135bfea5d5f5cf a fs-onto:ECCMO,
     fs-onto:hasTreatment fs-data:Treatment-490dddbc031c2c ;
     fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
 
-fs-data:ECCMO-23fd3cda7a00b9 a fs-onto:ECCMO,
-        owl:NamedIndividual ;
-    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=1|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
-    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
-        fs-data:CropSpecies-LUCERNE-instance ;
-    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
-    fs-onto:hasCropUsed fs-data:CropUsed-8532f192022aff ;
-    fs-onto:hasHost fs-data:Host-OTHER-instance ;
-    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
-        fs-data:WGS84-b6544f45487142 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd,
-        fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
-    fs-onto:hasObservation fs-data:Observation-59051026d1624f-12-AF,
-        fs-data:Observation-59051026d1624f-12-AG,
-        fs-data:Observation-59051026d1624f-12-N,
-        fs-data:Observation-59051026d1624f-12-O,
-        fs-data:Observation-59051026d1624f-12-P,
-        fs-data:Observation-59051026d1624f-12-Q,
-        fs-data:Observation-59051026d1624f-12-R,
-        fs-data:Observation-59051026d1624f-12-W,
-        fs-data:Observation-59051026d1624f-12-X,
-        fs-data:Observation-59051026d1624f-13-AF,
-        fs-data:Observation-59051026d1624f-13-AG,
-        fs-data:Observation-59051026d1624f-13-N,
-        fs-data:Observation-59051026d1624f-13-O,
-        fs-data:Observation-59051026d1624f-13-P,
-        fs-data:Observation-59051026d1624f-13-Q,
-        fs-data:Observation-59051026d1624f-13-R,
-        fs-data:Observation-59051026d1624f-13-W,
-        fs-data:Observation-59051026d1624f-13-X ;
-    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
-    fs-onto:hasReplicate fs-data:Replicate-2de6b78d360d2d ;
-    fs-onto:hasTreatment fs-data:Treatment-604ac497772e42 ;
-    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
-
 fs-data:ECCMO-4feffe24e3c21d a fs-onto:ECCMO,
         owl:NamedIndividual ;
     rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=3|TreatmentName='1 t/ha with inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
@@ -3232,41 +3227,6 @@ fs-data:ECCMO-4feffe24e3c21d a fs-onto:ECCMO,
     fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
     fs-onto:hasReplicate fs-data:Replicate-1890893e4c52e6 ;
     fs-onto:hasTreatment fs-data:Treatment-1afe05d869f958 ;
-    fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
-
-fs-data:ECCMO-c2a7b5aaa23d99 a fs-onto:ECCMO,
-        owl:NamedIndividual ;
-    rdfs:label "|Host='OTHER'|ProjectType='OTHER'|ProjectName='Test Project'|TrialName='Testing'|GroupName=None|Site=None|PropertyName=None|PaddockName=None|PaddockSize=None|Block=None|Replicate=2|TreatmentNumber=2|TreatmentName='1 t/ha no inc'|Plot=None|SamplingNumber=None|"^^xsd:string ;
-    fs-data:hasCropSpecies__PSC fs-data:CropSpecies-CLOVER-instance,
-        fs-data:CropSpecies-LUCERNE-instance ;
-    fs-data:hasCropType__PSC fs-data:CropType-PASTURE-instance ;
-    fs-onto:hasCropUsed fs-data:CropUsed-3f6e63b1b970b9 ;
-    fs-onto:hasHost fs-data:Host-OTHER-instance ;
-    fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
-        fs-data:WGS84-b6544f45487142 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd,
-        fs-data:Management-Amelioration-Lime-f8a86d3ed5873b ;
-    fs-onto:hasObservation fs-data:Observation-59051026d1624f-14-AF,
-        fs-data:Observation-59051026d1624f-14-AG,
-        fs-data:Observation-59051026d1624f-14-N,
-        fs-data:Observation-59051026d1624f-14-O,
-        fs-data:Observation-59051026d1624f-14-P,
-        fs-data:Observation-59051026d1624f-14-Q,
-        fs-data:Observation-59051026d1624f-14-R,
-        fs-data:Observation-59051026d1624f-14-W,
-        fs-data:Observation-59051026d1624f-14-X,
-        fs-data:Observation-59051026d1624f-15-AF,
-        fs-data:Observation-59051026d1624f-15-AG,
-        fs-data:Observation-59051026d1624f-15-N,
-        fs-data:Observation-59051026d1624f-15-O,
-        fs-data:Observation-59051026d1624f-15-P,
-        fs-data:Observation-59051026d1624f-15-Q,
-        fs-data:Observation-59051026d1624f-15-R,
-        fs-data:Observation-59051026d1624f-15-W,
-        fs-data:Observation-59051026d1624f-15-X ;
-    fs-onto:hasProject fs-data:Project-e7ea4f07308ba2 ;
-    fs-onto:hasReplicate fs-data:Replicate-1890893e4c52e6 ;
-    fs-onto:hasTreatment fs-data:Treatment-e3a86735410e61 ;
     fs-onto:hasTrial fs-data:Trial-124a0d175f7948 .
 
 fs-data:MoA-1-5-Water a fs-onto:MoA,
@@ -3308,7 +3268,6 @@ fs-data:ECCMO-72369b7701cad0 a fs-onto:ECCMO,
     fs-onto:hasHost fs-data:Host-OTHER-instance ;
     fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
         fs-data:WGS84-b6544f45487142 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
     fs-onto:hasObservation fs-data:Observation-59051026d1624f-04-AF,
         fs-data:Observation-59051026d1624f-04-AG,
         fs-data:Observation-59051026d1624f-04-N,
@@ -3360,7 +3319,6 @@ fs-data:ECCMO-8319a5207bba46 a fs-onto:ECCMO,
     fs-onto:hasHost fs-data:Host-OTHER-instance ;
     fs-onto:hasLocation fs-data:AddressSystem-305304b2563b97,
         fs-data:WGS84-b6544f45487142 ;
-    fs-onto:hasManagement fs-data:Management-Amelioration-7740cb648163bd ;
     fs-onto:hasObservation fs-data:Observation-59051026d1624f-06-AF,
         fs-data:Observation-59051026d1624f-06-AG,
         fs-data:Observation-59051026d1624f-06-N,
